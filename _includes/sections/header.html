@@ -1,0 +1,75 @@
+<!---
+name: "Header"
+settings:
+  menu: "main"
+  show_currency_selector: true
+  timer_type: "simple"
+  show_announcement_bar: false
+  label: "Drop 001"
+  enable_countdown: false
+  countdown_start_date: "August 21, 2021 07:00:00"
+  countdown_end_date: "August 24, 2021 20:00:00"
+--->
+<div class="header header--{{ include.class }}">
+  <div class="container container--10 wrapper">
+    <div class="header__sections">
+      <div class="header__section header__section--left">
+        <div class="header__logo visible@sm">
+          {% if page.url == 'index' %}
+            <h1 class="header__logo visible@sm">
+          {% else %}
+            <div class="header__logo visible@sm">
+          {% endif %}
+
+            <a href="{{ routes.root_url | localized_url }}" class="header__logo-link">
+              {% include snippets/logo.html class="header__logo-image" %}
+            </a>
+
+          {% if page.url == 'index' %}
+            </h1>
+          {% else %}
+            </div>
+          {% endif %}
+        </div>
+
+        <div class="hidden@sm">
+          <button
+            data-drawer-trigger-primary="mobile-menu"
+            class="header__icon header__icon--hamburger"
+          >
+            {% include snippets/icon-hamburger.svg %}
+          </button>
+        </div>
+      </div>
+
+      <div class="header__section header__section--middle">
+        <div class="header__logo hidden@sm">
+          <a href="{{ routes.root_url | localized_url }}" class="header__logo-link">
+            {% include snippets/logo.html class="header__logo-image" %}
+          </a>
+        </div>
+      </div>
+
+      <div class="header__section header__section--right">
+        <nav class="header__nav visible@sm">
+          <ul class="header__list header__list--nav">
+            {% for link in site.data.linklists[include.menu] %}
+              <li class="header__list-item">
+                <a
+                  href="{{ link.url | localized_url }}"
+                  class="header__link{% if link.links != blank %} header__link--icon{% endif %}"
+                >
+                  {{ link.title }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include snippets/mobile-menu.html menu=include.menu %}
+
+

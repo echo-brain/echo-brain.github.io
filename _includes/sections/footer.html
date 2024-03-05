@@ -1,0 +1,58 @@
+<div class="footer">
+  <div class="container wrapper">
+    <div class="footer__inner">
+      <div class="footer__top">
+        <div class="grid">
+          <div class="grid__column grid__column--12 grid__column--6@md">
+            <div class="footer__newsletter-header">
+              <h3 class="footer__newsletter-heading">{{ include.heading_newsletter }}</h3>
+            </div>
+            {% include snippets/newsletter-form.html %}
+          </div>
+
+          <div class="grid__column grid__column--12 grid__column--6@md">
+            <nav class="footer__nav">
+              <ul class="footer__list footer__list--menu">
+                {% for link in site.data.linklists[include.menu] %}
+                  <li class="footer__list-item">
+                    <a href="{{ link.url | localized_url }}" class="footer__menu-link">{{ link.title }}</a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </nav>  
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__middle">
+        <div class="footer__socials">
+          <ul class="footer__list footer__list--socials">
+            {% include snippets/socials.html menu='social' li_class='footer__list-item footer__list-item--social' a_class='footer__social-link' badge_class='footer__social-badge' %}
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <ul class="footer__list footer__list--bottom">
+          {% assign copyright_text = shop.name -%}
+
+          {% if include.copyright_text != blank %}
+            {% assign copyright_text = include.copyright_text %}
+          {% endif -%}
+
+          <li class="footer__list-item">
+            <div class="footer__copy">&copy; {{ 'now' | date: '%Y' }} {{ copyright_text }}</div>
+          </li>
+
+          {% if include.show_powered_by == true %}
+            <li class="footer__list-item">
+              <div class="footer__powered-by">
+                {{ powered_by_link }}
+              </div>
+            </li>
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

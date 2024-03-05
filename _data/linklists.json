@@ -1,0 +1,40 @@
+{
+  "main": [
+    {
+      "url": "/resources",
+      "title": "Resources"
+    },
+    {
+      "url": "/about",
+      "title": "About"
+    },
+    {
+      "url": "/contact",
+      "title": "Contact"
+    }
+  ],
+  "footer": [
+    {
+      "url": "/resources",
+      "title": "Resources"
+    },
+    {
+      "url": "/about",
+      "title": "About"
+    },
+    {
+      "url": "/contact",
+      "title": "Contact"
+    }
+  ],
+  "social": [
+    {
+      "url": "https://www.facebook.com",
+      "title": "Facebook"
+    },
+    {
+      "url": "https://www.instagram.com",
+      "title": "Instagram"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "logo": "/assets/logo.svg",
+  "favicon": "/assets/favicon.ico",
+  "color_primary": "#2E2E2E",
+  "color_background": "#FFFFFF",
+  "color_on_background": "#2E2E2E",
+  "color_on_primary": "#FFFFFF",
+  "type_base_font": "lato_n4",
+  "type_heading_font": "playfair_display_n7",
+  "button_corner_radius": 32,
+  "input_corner_radius": 20,
+  "image_corner_radius": 20,
+  "sections": {
+    "header": {
+      "type": "header"
+    },
+    "footer": {
+      "type": "footer"
+    },
+    "hero-0": {
+      "type": "hero",
+      "settings": {
+        "background_image": "/sample-banner-3.jpg",
+        "heading_color": "#2E2E2E",
+        "text_color": "#2E2E2E"
+      }
+    },
+    "featured-collection-0": {
+      "type": "featured-collection"
+    }
+  },
+  "content_for_index": [
+    "hero-video-0",
+    "featured-collection-0"
+  ]
+}

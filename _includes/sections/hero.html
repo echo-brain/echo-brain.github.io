@@ -1,0 +1,101 @@
+{%- capture background_overlay_opacity -%}
+  opacity:{{ include.background_overlay_opacity | divided_by: 100.00 }};
+{%- endcapture -%}
+
+{%- capture background_image_blend_mode -%}
+  mix-blend-mode:{{ include.background_blend_mode }};
+{%- endcapture -%}
+
+<section data-section-id="{{ section.id }}" class="hero hero--{{ section.id }}{% if include.move_top == true %} hero--move-top{% endif %}">
+  <div class="section-background">
+    {% if include.background_image != blank %}
+      <div
+        class="section-background__image"
+        style="background-image: url({{ include.background_image | asset_url }});{{ background_image_blend_mode }}"
+      ></div>
+    {% endif %}
+
+    {% if include.show_background_overlay == true %}
+      <div
+        class="section-background__overlay"
+        style="background-color:{{ include.background_overlay_color }};{{ background_overlay_opacity }}"
+      ></div>
+    {% endif %}
+  </div>
+
+  <div class="hero__inner">
+    <div class="container container--10 wrapper">
+      <div class="grid grid--waffle grid--center">
+        <div class="grid__column grid__column--12 grid__column--7@md">
+          <div
+            class="hero__content hero__content--{{ include.content_alignment }} hero__content--{{ include.section_size }}"
+            style="color:{{ include.heading_color }};"
+          >
+            <h1
+              class="hero__heading hero__heading--{{ include.heading_size }}"
+              style="color:{{ include.heading_color }};"
+            >
+              {{ include.heading }}
+            </h1>
+
+            {% if include.text != blank %}
+              <p
+                class="hero__text"
+                style="color:{{ include.text_color }};"
+              >
+                {{ include.text }}
+              </p>
+            {% endif %}
+
+            {% if include.show_button1 == true or include.show_button2 == true %}
+            <div class="hero__cta-container hero__cta-container--{{ include.content_alignment }}">
+              {% if include.show_button1 == true %}
+                <div class="hero__cta hero__cta--primary">
+                  <a
+                    href="{{ include.button1_url | localized_url }}"
+                    class="button button--primary"
+                  >
+                    {{ include.button1_text }}
+                  </a>
+                </div>
+              {% endif %}
+
+              {% if include.show_button2 == true %}
+                <div class="hero__cta hero__cta--secondary">
+                  <a
+                    href="{{ include.button2_url | localized_url }}"
+                    class="button button--outline"
+                    style="color:{{ include.heading_color }};border-color:{{ include.heading_color | color_modify: 'alpha', 0.3 }};"
+                  >
+                    {{ include.button2_text }}
+                  </a>
+                </div>
+              {% endif %}
+            </div>
+            {% endif %}
+          </div>
+        </div>
+        <div class="grid__column grid__column--flex grid__column--right grid__column--middle grid__column--12 grid__column--5@md visible@md">
+          <div class="phone">
+            <div class="phone__object">
+                <img src="/assets/phone.svg" alt="echobrain phone" class="">
+            </div>
+
+            <div class="phone__object phone__object--video">
+                <video autoplay="" muted="" loop="" id="video">
+                    <source src="/assets/echobrain.mp4" type="video/mp4">
+                </video>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  {% if include.show_socials == true %}
+    <div class="hero__socials" style="color:{{ include.heading_color }};">
+      {% include snippets/socials.html menu='social' li_class='hero__social-item' a_class='hero__social-link' badge_class='hero__social-badge' %}
+    </div>
+  {% endif %}
+</section>

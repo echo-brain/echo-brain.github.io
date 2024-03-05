@@ -1,0 +1,37 @@
+---
+layout: theme
+---
+<div class="main">
+  <div class="main__sections">
+    {% include sections/hero.html
+      heading="Transforming the echo of your clients into intelligent strategies."
+      text=""
+      show_button1=true
+      button1_text="Login"
+      button1_url="/admin/login"
+      show_button2=true
+      button2_text="Sign Up Free"
+      button2_url="/admin/register"
+      background_image="/assets/sample-banner.jpg"
+      show_background_overlay=false
+      background_overlay_color="#000000"
+      background_overlay_opacity=50
+      background_blend_mode="normal"
+      move_top=true
+      section_size="extra-large"
+      heading_size="small"
+      content_alignment="left"
+      heading_color="#F9F8FF"
+      text_color="#F9F8FF"
+      show_socials=true
+    %}
+
+    {% include sections/benefits.html %}
+
+    {% include sections/potential.html %}
+
+    {% include sections/us.html %}
+
+    {% include sections/contact.html %}
+  </div>
+</div>

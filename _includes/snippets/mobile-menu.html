@@ -1,0 +1,64 @@
+<aside 
+  data-drawer="mobile-menu" 
+  class="drawer hidden@sm"
+>
+  <div class="drawer__background" data-drawer-trigger-primary="mobile-menu"></div>
+  <div class="drawer__content drawer__content--small mobile-menu">
+    <div class="mobile-menu__section mobile-menu__section--header">
+      <a href="#" class="mobile-menu__close" data-drawer-trigger-primary="mobile-menu">
+        {% include snippets/icon-close.svg %}
+      </a>
+    </div>
+    <div class="mobile-menu__section mobile-menu__section--body">
+      <div class="mobile-menu__nav">
+        <ul class="mobile-menu__list">
+          {% for link in site.data.linklists[include.menu] %}
+            <li class="mobile-menu__list-item">
+              <a
+                href="{{ link.url | localized_url }}"
+                class="mobile-menu__link"
+              >
+                {{ link.title }}
+              </a>
+            </li>
+          {% endfor %}
+
+          {% if include.show_currency_selector == true and shop.enabled_currencies.size > 1 %}
+            <li class="mobile-menu__list-item">
+              <a for="input-drawer" class="mobile-menu__link" data-accordion="trigger">
+                {{ cart_currency }}
+
+                {% if shop.enabled_currencies != blank %}
+                  <div class="mobile-menu__link-icon">
+                    {% include snippets/icon-chevron-bottom.svg %}
+                  </div>
+                {% endif %}
+              </a>
+
+              {% if shop.enabled_currencies != blank %}
+                <div class="mobile-menu__dropdown mobile-menu__dropdown--content">
+                  <ul class="mobile-menu__dropdown-inner">
+                    {% for currency in shop.enabled_currencies %}
+                      <li class="mobile-menu__dropdown-item">
+                        <a class="mobile-menu__dropdown-link" href="/localization?currency={{ currency }}&return_to={{ request_page }}">
+                          {{ currency }}
+                        </a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              {% endif %}
+            </li>
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+    <div class="mobile-menu__section mobile-menu__section--socials">
+      <div class="mobile-menu__list-social">
+        <ul class="mobile-menu__socials">
+          {% include snippets/socials.html menu='social' li_class='mobile-menu__social' a_class='mobile-menu__social-link' badge_class='mobile-menu__social-badge' %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</aside>

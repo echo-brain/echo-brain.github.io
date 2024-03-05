@@ -1,0 +1,78 @@
+title: EchoBrain
+email: info@echo-brain.com
+description: >-
+  Transforming the echo of your clients into intelligent strategies.
+baseurl: ""
+url: ""
+github_username: echo-brain
+
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-archives
+
+# -----------------------------------------------------------------------------
+# RSS Feed
+# -----------------------------------------------------------------------------
+# will use title and url fields
+# Take a look to https://github.com/jekyll/jekyll-feed for more customization
+
+rss_icon: true
+
+# -----------------------------------------------------------------------------
+# Blog
+# -----------------------------------------------------------------------------
+
+blog_name: al-folio # blog_name will be displayed in your blog page
+blog_description: a simple whitespace theme for academics
+permalink: /blog/:categories/:title/
+
+# Pagination
+pagination:
+  enabled: true
+
+related_blog_posts:
+  enabled: true
+  max_related: 5
+
+# -----------------------------------------------------------------------------
+# Open Graph & Schema.org
+# -----------------------------------------------------------------------------
+# Display links to the page with a preview object on social media.
+# see https://schema.org/docs/faq.html for more information
+serve_og_meta: false # Include Open Graph meta tags in the HTML head
+serve_schema_org: false # Include Schema.org in the HTML head
+og_image: # The site-wide (default for all links) Open Graph preview image
+
+# -----------------------------------------------------------------------------
+# Jekyll settings
+# -----------------------------------------------------------------------------
+
+# Markdown and syntax highlight
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    css_class: "highlight"
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1
+
+# Includes & excludes
+include: ["_pages"]
+exclude:
+- CNAME
+- Gemfile
+- Gemfile.lock
+- node_modules/
+- vendor/
+- package.json
+- package-lock.json
+- webpack.config.js
+- styles
+- scripts

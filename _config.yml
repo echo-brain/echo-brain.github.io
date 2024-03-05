@@ -2,8 +2,8 @@ title: EchoBrain
 email: info@echo-brain.com
 description: >-
   Transforming the echo of your clients into intelligent strategies.
-baseurl: ""
-url: ""
+baseurl: "/"
+url: "echo-brain.github.io"
 github_username: echo-brain
 
 plugins:

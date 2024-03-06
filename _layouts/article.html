@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="{{ request.locale.iso_code }}">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <meta content="0.1.31" name="version" />
+    <link rel="canonical" href="{{ canonical_url }}" />
+
+    {%- if page.title -%}
+      <title>{{ page.title }} | {{ site.title | default: site.github.repository_name }}</title>
+    {%- else -%}
+      <title>{{ site.title | default: site.github.repository_name }}</title>
+    {%- endif -%}
+
+    {% include snippets/head-meta-socials.html %}
+
+    {% include snippets/head-favicons.html %}
+
+    <link rel="stylesheet" href="{{ "/assets/vendor.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/assets/variables.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/assets/style.css" | prepend: site.baseurl }}">
+  </head>
+  <body class="body">
+    {% include snippets/ie-support.html %}
+
+    <div class="page">
+      <header class="page__header">
+        {% include sections/header.html menu="main" class="blog" %}
+      </header>
+
+      <div class="page__main page__main--spacing">
+        <div class="main">
+          <div class="main__sections">
+            <div class="article">
+              <div class="container container--9 wrapper">
+                <div class="section-header section-header--column">
+                  <h2 class="section-header__heading section-header__heading--center">{{ page.title | strip_html }}</h2>
+                  <span class="post-meta">Posted on {{ page.date | date: date_format }}</span>
+                  {% if page.last-updated %}
+                    <span class="post-meta">
+                      <span class="d-none d-md-inline middot">&middot;</span>
+                      Last updated {{ page.last-updated | date: date_format }}
+                    </span>
+                  {% endif %}
+                </div>
+
+                <div class="rich-text">
+                  <div class="rich-text__inner">
+                    {{ content }}
+                  </div>
+                </div>
+
+                {% if page.tags.size > 0 %}
+                  <div class="blog-tags">
+                    <span>Tags:</span>
+                    {% for tag in page.tags %}
+                      <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
+                    {% endfor %}
+                  </div>
+                {% endif %}
+
+                {% if page.after-content %}
+                  <div class="after-content">
+                    {% for file in page.after-content %}
+                      {% include {{ file }} %}
+                    {% endfor %}
+                  </div>
+                {% endif %}
+
+                {% if page.social-share %}
+                  {% include snippets/social-share.html %}
+                {% endif %}
+
+                <div class="pagination">
+                  <ul class="pagination__list">
+                    {% if page.previous.url %}
+                      <li class="pagination__item previous">
+                        <a class="page-link" href="{{ page.previous.url | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title | strip_html | xml_escape}}">
+                          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 768 768">
+                            <path d="M502.624 553.376l-169.376-169.376 169.376-169.376c12.512-12.512 12.512-32.768 0-45.248s-32.768-12.512-45.248 0l-192 192c-12.512 12.512-12.512 32.768 0 45.248l192 192c12.512 12.512 32.768 12.512 45.248 0s12.512-32.768 0-45.248z"></path>
+                          </svg>
+                        </a>
+                      </li>
+                    {% endif %}
+                    {% if page.next.url %}
+                      <li class="pagination__item next">
+                        <a class="page-link" href="{{ page.next.url | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title | strip_html | xml_escape}}">
+                          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 768 768">
+                            <path d="M310.624 598.624l192-192c12.512-12.512 12.512-32.768 0-45.248l-192-192c-12.512-12.512-32.768-12.512-45.248 0s-12.512 32.768 0 45.248l169.376 169.376-169.376 169.376c-12.512 12.512-12.512 32.768 0 45.248s32.768 12.512 45.248 0z"></path>
+                          </svg>
+                        </a>
+                      </li>
+                    {% endif %}
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="page__footer">
+        {% include sections/footer.html
+          menu="footer"
+          show_currency_selector=true
+          copyright_text=""
+          show_powered_by=true
+          heading_newsletter="More information"
+        %}
+      </footer>
+    </div>
+    {% include snippets/theme-js-data.html %}
+    <script src="{{ "/assets/theme.js" | prepend: site.baseurl }}"></script>
+  </body>
+</html>

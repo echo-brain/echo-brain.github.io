@@ -1,41 +1,13 @@
-<section
-  data-section-id="{{ section.id }}"
-  data-section-type="image-section"
-  class="image-section image-section--{{ section.id }}"
->
+<section class="image-section">
   <div class="image-section__inner">
     <div class="container container--10 wrapper">
       <div class="image-section__image-container">
-        <img 
+        <img
           class="image-section__image"
-          src="{{ section.settings.image | img_url: '1400x' }}"
-          alt="{{ section.settings.image | img_alt }}"
+          src="{{ include.image }}"
+          alt="{{ site.name }}"
         />
       </div>
     </div>
   </div>
 </section>
-
-{% schema %}
-  {
-    "name": "Image",
-    "group": "Layout",
-    "position": 1,
-    "description": "Upload an image.",
-    "settings": [
-      {
-        "type": "image_picker",
-        "id": "image",
-        "label": "Image",
-        "default": "/sample-banner.jpg",
-        "info": "Recommended aspect ratio: 3:2 (width:height)"
-      }
-    ],
-    "presets": [
-      {
-        "category": "Content",
-        "name": "Image"
-      }
-    ]
-  }
-{% endschema %}

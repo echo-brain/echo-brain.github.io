@@ -1,29 +1,33 @@
 {
   "main": [
     {
-      "url": "/resources",
+      "url": "/resources/",
       "title": "Resources"
     },
     {
-      "url": "/about",
+      "url": "/about/",
       "title": "About"
     },
     {
-      "url": "/contact",
+      "url": "/contact/",
       "title": "Contact"
+    },
+    {
+      "url": "/blog/",
+      "title": "Blog"
     }
   ],
   "footer": [
     {
-      "url": "/resources",
+      "url": "/resources/",
       "title": "Resources"
     },
     {
-      "url": "/about",
+      "url": "/about/",
       "title": "About"
     },
     {
-      "url": "/contact",
+      "url": "/contact/",
       "title": "Contact"
     }
   ],

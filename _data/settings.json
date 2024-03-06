@@ -20,7 +20,7 @@
     "hero-0": {
       "type": "hero",
       "settings": {
-        "background_image": "/sample-banner-3.jpg",
+        "background_image": "/assets/echo.jpg",
         "heading_color": "#2E2E2E",
         "text_color": "#2E2E2E"
       }

@@ -4,13 +4,6 @@
       <div class="footer__top">
         <div class="grid">
           <div class="grid__column grid__column--12 grid__column--6@md">
-            <div class="footer__newsletter-header">
-              <h3 class="footer__newsletter-heading">{{ include.heading_newsletter }}</h3>
-            </div>
-            {% include snippets/newsletter-form.html %}
-          </div>
-
-          <div class="grid__column grid__column--12 grid__column--6@md">
             <nav class="footer__nav">
               <ul class="footer__list footer__list--menu">
                 {% for link in site.data.linklists[include.menu] %}
@@ -19,7 +12,9 @@
                   </li>
                 {% endfor %}
               </ul>
-            </nav>  
+            </nav>
+          </div>
+          <div class="grid__column grid__column--12 grid__column--6@md">
           </div>
         </div>
       </div>

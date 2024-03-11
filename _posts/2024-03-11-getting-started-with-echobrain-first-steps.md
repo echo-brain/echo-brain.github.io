@@ -1,13 +1,12 @@
 ---
 layout: article
-title: Getting Started with EchoBrain - First Steps
+title: "Getting Started with EchoBrain: First Steps"
 description: EchoBrain, Your Guide to E-commerce Success  Empower your brand with UGC, reviews & community. Easy setup guide for creators to launch & thrive.
 image: /assets/echo.jpg
 date: 2024-03-11
 tags: [introduction, echobrain, e-commerce]
 ---
 
-# Getting Started with EchoBrain: First Steps
 Welcome aboard, creators! Diving into the world of EchoBrain is the first step towards revolutionizing your e-commerce journey. This easy-to-follow guide is designed to walk you through the initial phases of integrating EchoBrain into your online store. With EchoBrain, you're not just adopting a platform; you're embracing a community-driven approach to enhance your brand's authenticity and customer engagement. Let's embark on this journey together, step by step.
 
 ### Step 1: Sign Up and Dive In

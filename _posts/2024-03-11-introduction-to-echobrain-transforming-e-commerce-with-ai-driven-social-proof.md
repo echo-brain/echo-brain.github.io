@@ -1,6 +1,7 @@
 ---
 layout: article
-title: Introduction to EchoBrain: Transforming E-Commerce with AI-Driven Social Proof
+title: >-
+Introduction to EchoBrain: Transforming E-Commerce with AI-Driven Social Proof
 description: Unleash your brand's potential on EchoBrain, the creator-focused e-commerce platform.  Go beyond sales with UGC, reviews & AI to build real connections and boost sales.
 image: /assets/echo.jpg
 date: 2024-03-11

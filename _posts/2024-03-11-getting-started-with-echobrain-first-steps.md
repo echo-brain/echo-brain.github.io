@@ -17,15 +17,17 @@ Your adventure with EchoBrain begins at the very start – registration. Head ov
 ### Step 2: Unlock Your EchoBrain Toolkit
 Inside your EchoBrain dashboard lies the key to connecting EchoBrain with your online shop – your API keys and unique shop ID. Navigate to your account settings to find these crucial pieces of information. This process is designed to be straightforward and hassle-free, ensuring you can quickly move on to the exciting part: integration and customization.
 
+![EchoBrain dashboard](/assets/echo-brain.com_admin_dashboard.jpg)
+
 ### Step 3: Integrate EchoBrain with Your Shop
 With your API keys and shop ID in hand, it's time to bridge your shop with EchoBrain. If you're using Fourthwall or a similar platform, locate the EchoBrain app within your shop's dashboard and input the information you retrieved earlier. Connecting EchoBrain is as simple as clicking "Connect". This seamless integration is the first step in bringing the power of customer reviews and social proof to your storefront.
 
 ### Step 4: Customize Your Customer Experience
 EchoBrain doesn't just collect reviews; it transforms them into an integral part of your brand's narrative. Through your Fourthwall shop's Theme Editor, you can inject EchoBrain's script to start the magic. This script is more than just code; it's the gateway to displaying authentic customer reviews, complete with images and ratings, right on your product pages.
 
-![EchoBrain register](/assets/production-reviews-shop_admin_dashboard.jpg)
-
 But EchoBrain's customization capabilities don't end there. Dive into your EchoBrain dashboard to personalize everything from the aesthetic of published reviews to the strategic placement of these testimonials on your site. EchoBrain ensures that every review not only looks like a natural part of your store but also enhances the shopper's journey.
+
+![EchoBrain register](/assets/production-reviews-shop_admin_dashboard.jpg)
 
 ## Embrace the EchoBrain Advantage
 Getting started with EchoBrain is more than setting up a platform; it's about laying the foundation for a more engaged, trustworthy, and customer-centric online store. By integrating EchoBrain, you're tapping into the collective power of your customer base, transforming their experiences into your brand's most compelling selling points.

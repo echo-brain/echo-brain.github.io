@@ -12,6 +12,8 @@ Welcome aboard, creators! Diving into the world of EchoBrain is the first step t
 ### Step 1: Sign Up and Dive In
 Your adventure with EchoBrain begins at the very start – registration. Head over to [EchoBrain's registration page](https://echo-brain.com/admin/register/) to create your account. This is where the transformation of your e-commerce strategy starts. Once registered, you'll be ushered into your personal EchoBrain dashboard, the command center for your upcoming endeavors.
 
+![EchoBrain register](/assets/echo-brain.com_admin_register.jpg)
+
 ### Step 2: Unlock Your EchoBrain Toolkit
 Inside your EchoBrain dashboard lies the key to connecting EchoBrain with your online shop – your API keys and unique shop ID. Navigate to your account settings to find these crucial pieces of information. This process is designed to be straightforward and hassle-free, ensuring you can quickly move on to the exciting part: integration and customization.
 
@@ -20,6 +22,8 @@ With your API keys and shop ID in hand, it's time to bridge your shop with EchoB
 
 ### Step 4: Customize Your Customer Experience
 EchoBrain doesn't just collect reviews; it transforms them into an integral part of your brand's narrative. Through your Fourthwall shop's Theme Editor, you can inject EchoBrain's script to start the magic. This script is more than just code; it's the gateway to displaying authentic customer reviews, complete with images and ratings, right on your product pages.
+
+![EchoBrain register](/assets/production-reviews-shop_admin_dashboard.jpg)
 
 But EchoBrain's customization capabilities don't end there. Dive into your EchoBrain dashboard to personalize everything from the aesthetic of published reviews to the strategic placement of these testimonials on your site. EchoBrain ensures that every review not only looks like a natural part of your store but also enhances the shopper's journey.
 

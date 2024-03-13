@@ -15,17 +15,17 @@ settings:
     <div class="header__sections">
       <div class="header__section header__section--left">
         <div class="header__logo visible@sm">
-          {% if page.url == 'index' %}
+          {% if page.url == '/' %}
             <h1 class="header__logo visible@sm">
           {% else %}
             <div class="header__logo visible@sm">
           {% endif %}
 
-            <a href="/" class="header__logo-link">
+            <a href="{{ include.root_url }}" class="header__logo-link">
               {% include snippets/logo.html class="header__logo-image" %}
             </a>
 
-          {% if page.url == 'index' %}
+          {% if page.url == '/' %}
             </h1>
           {% else %}
             </div>
@@ -44,7 +44,7 @@ settings:
 
       <div class="header__section header__section--middle">
         <div class="header__logo hidden@sm">
-          <a href="{{ routes.root_url | localized_url }}" class="header__logo-link">
+          <a href="{{ include.root_url }}" class="header__logo-link">
             {% include snippets/logo.html class="header__logo-image" %}
           </a>
         </div>

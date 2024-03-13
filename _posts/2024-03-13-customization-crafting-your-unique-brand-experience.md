@@ -3,7 +3,7 @@ layout: article
 title: "Customization: Crafting Your Unique Brand Experience"
 description: "Discover how EchoBrain customizes your brand experience, from matching your shop's style to offering unique CSS options. Optimize your reviews' visibility and engagement, tailor thank you emails, and incentivize feedback with coupons. Make EchoBrain your own and enhance your digital shop's personality."
 date: 2024-03-13
-image: /assets/store-fourthwall-echobrain.jpg
+image: /assets/posts/store-fourthwall-echobrain.jpg
 categories: ['documentation']
 tags: [Documentation, Customization]
 ---

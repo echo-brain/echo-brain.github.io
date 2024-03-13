@@ -5,7 +5,7 @@ description: "Explore EchoBrain, the e-commerce platform crafted for creators. B
 date: 2024-03-12
 image: /assets/login-echobrain-laptop.jpg
 categories: ['documentation']
-tags: []
+tags: [Documentation, DashboardSimplicity, CustomerInsights]
 ---
 
 Welcome to the EchoBrain dashboard, where managing your online store's user-generated content becomes a walk in the park. Designed with simplicity in mind, this dashboard overview is specially crafted for creators who want to make the most of their e-commerce platforms. Let's break down each section for an easy, comprehensive understanding of this powerful tool.

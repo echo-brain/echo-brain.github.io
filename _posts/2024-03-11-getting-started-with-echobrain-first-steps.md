@@ -5,7 +5,7 @@ description: EchoBrain, Your Guide to E-commerce Success  Empower your brand wit
 image: /assets/getting-started-with-echobrain-first-steps.jpg
 date: 2024-03-11
 categories: ['documentation']
-tags: [introduction, echobrain, e-commerce]
+tags: [Documentation, Integration, Customization]
 ---
 
 Welcome aboard, creators! Diving into the world of EchoBrain is the first step towards revolutionizing your e-commerce journey. This easy-to-follow guide is designed to walk you through the initial phases of integrating EchoBrain into your online store. With EchoBrain, you're not just adopting a platform; you're embracing a community-driven approach to enhance your brand's authenticity and customer engagement. Let's embark on this journey together, step by step.

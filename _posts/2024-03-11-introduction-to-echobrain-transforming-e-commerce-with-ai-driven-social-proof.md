@@ -4,7 +4,8 @@ title: "Introduction to EchoBrain: Transforming E-Commerce with AI-Driven Social
 description: Unleash your brand's potential on EchoBrain, the creator-focused e-commerce platform.  Go beyond sales with UGC, reviews & AI to build real connections and boost sales.
 image: /assets/introduction-echobrain.jpg
 date: 2024-03-11
-tags: [introduction, echobrain, e-commerce]
+categories: ['documentation']
+tags: [introduction, echobrain]
 ---
 
 Welcome to the revolutionary world of EchoBrain, the e-commerce platform designed with creators in mind. In the digital age, where the market is saturated and competition is fierce, standing out is crucial. EchoBrain is not just a tool; it's your partner in building a deeper, more authentic connection between your brand and its customers. By harnessing the power of reviews, user-generated content (UGC), social proof, and cutting-edge Artificial Intelligence (AI), EchoBrain propels your brand's visibility and credibility, ultimately driving your bottom line upwards.

@@ -2,8 +2,9 @@
 layout: article
 title: "Dashboard Overview: Navigating Your EchoBrain Interface"
 description: "Explore EchoBrain, the e-commerce platform crafted for creators. Boost your brand with reviews, user-generated content, and cutting-edge AI. Stand out in a saturated market and authentically connect with your customers. Drive your success with EchoBrain!"
-date: 2024-03-12 18:52:00
+date: 2024-03-12
 image: /assets/login-echobrain-laptop.jpg
+categories: ['documentation']
 tags: []
 ---
 

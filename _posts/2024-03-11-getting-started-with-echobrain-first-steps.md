@@ -4,6 +4,7 @@ title: "Getting Started with EchoBrain: First Steps"
 description: EchoBrain, Your Guide to E-commerce Success  Empower your brand with UGC, reviews & community. Easy setup guide for creators to launch & thrive.
 image: /assets/getting-started-with-echobrain-first-steps.jpg
 date: 2024-03-11
+categories: ['documentation']
 tags: [introduction, echobrain, e-commerce]
 ---
 

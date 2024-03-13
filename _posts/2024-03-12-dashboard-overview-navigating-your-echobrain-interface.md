@@ -34,7 +34,7 @@ Time is money, and EchoBrain's import and export features understand that well. 
 ## Your Store Settings
 Tailoring your EchoBrain review widgets to match your brand's aesthetic and functional needs is simple with the Settings section. Customize everything from the colors and appearance of your widgets to coupon codes and email templates. With EchoBrain, you’re in control of how your brand is presented and how you communicate with your customers.
 
-[echobrain setting frontend](/assets/screenr-dashboard-setting-frontend.mp4)
+<video src="/assets/screenr-dashboard-setting-frontend.mp4" muted="" autoplay="" width="100%" loop=""></video>
 
 The EchoBrain dashboard is designed to put you in the driver's seat of your e-commerce store's user-generated content. By understanding and utilizing each section – from viewing ratings at a glance to diving into the details of reviews and questions – you can harness the power of customer feedback to build a stronger, more responsive brand. Keep your EchoBrain tuned, and watch your online presence thrive.
 

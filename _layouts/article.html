@@ -36,11 +36,11 @@
               <div class="container container--9 wrapper">
                 <div class="section-header section-header--column">
                   <h2 class="section-header__heading section-header__heading--center">{{ page.title | strip_html }}</h2>
-                  <span class="post-meta">Posted on {{ page.date | date: date_format }}</span>
+                  <span class="post-meta">Posted on {{ page.date | date: "%Y-%m-%d"  }}</span>
                   {% if page.last-updated %}
                     <span class="post-meta">
                       <span class="d-none d-md-inline middot">&middot;</span>
-                      Last updated {{ page.last-updated | date: date_format }}
+                      Last updated {{ page.last-updated | date: "%Y-%m-%d"  }}
                     </span>
                   {% endif %}
                 </div>

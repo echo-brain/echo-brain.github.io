@@ -16,12 +16,12 @@ Your adventure with EchoBrain begins at the very start – registration. Head ov
 ![EchoBrain register](/assets/echo-brain.com_admin_register.jpg)
 
 ### Step 2: Unlock Your EchoBrain Toolkit
-Inside your EchoBrain dashboard lies the key to connecting EchoBrain with your online shop – your API keys and unique shop ID. Navigate to your account settings to find these crucial pieces of information. This process is designed to be straightforward and hassle-free, ensuring you can quickly move on to the exciting part: integration and customization.
+Inside your EchoBrain dashboard lies the key to connecting EchoBrain with your online shop – your unique shop ID. Navigate to your account settings to find these crucial pieces of information. This process is designed to be straightforward and hassle-free, ensuring you can quickly move on to the exciting part: integration and customization.
 
 ![EchoBrain dashboard](/assets/echo-brain.com_admin_dashboard.jpg)
 
 ### Step 3: Integrate EchoBrain with Your Shop
-With your API keys and shop ID in hand, it's time to bridge your shop with EchoBrain. If you're using Fourthwall or a similar platform, locate the EchoBrain app within your shop's dashboard and input the information you retrieved earlier. Connecting EchoBrain is as simple as clicking "Connect". This seamless integration is the first step in bringing the power of customer reviews and social proof to your storefront.
+With your shop ID in hand, it's time to bridge your shop with EchoBrain. If you're using Fourthwall or a similar platform, locate the EchoBrain app within your shop's dashboard and input the information you retrieved earlier. Connecting EchoBrain is as simple as clicking "Connect". This seamless integration is the first step in bringing the power of customer reviews and social proof to your storefront.
 
 ### Step 4: Customize Your Customer Experience
 EchoBrain doesn't just collect reviews; it transforms them into an integral part of your brand's narrative. Through your Fourthwall shop's Theme Editor, you can inject EchoBrain's script to start the magic. This script is more than just code; it's the gateway to displaying authentic customer reviews, complete with images and ratings, right on your product pages.

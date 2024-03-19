@@ -18,7 +18,7 @@ When you first hop into EchoBrain’s dashboard, it already knows your shop's st
 ## Your Brand’s Colors
 EchoBrain gets its color vibe from your store too, but hey, we all like options, right? If you’re feeling creative, splash on some new colors. Change the primary color, background, text – even the button shapes! And if you know a bit of CSS, you can get fancy and add your own styling. It’s like choosing the perfect outfit for your online shop.
 
-<video src="/assets/page-css-custom-color-star.mp4" muted="" autoplay="" width="100%" loop="" style="margin:15px 0;"></video>
+<video src="/assets/posts/page-css-custom-color-star.mp4" muted="" autoplay="" width="100%" loop="" style="margin:15px 0;"></video>
 
 ## Where Do You Want Your Reviews?
 Your reviews are like little stars – let’s put them center stage. You can place them wherever you like on your site with some CSS tricks. It’s a bit like deciding where to hang pictures in your shop. Not sure about CSS? No worries, there's help for that too.

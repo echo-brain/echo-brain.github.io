@@ -18,12 +18,12 @@ But where do these reviews go? Straight to your EchoBrain dashboard, where you a
 ## Setting Up EchoBrain: A Breeze for Creators
 EchoBrain values your time as a creator. Installation is a straightforward process designed to integrate seamlessly with your workflow. Begin by logging into your EchoBrain dashboard to retrieve your unique shop ID. Then, head over to your Fourthwall shop's dashboard, find the EchoBrain app, and connect using the unique shop ID you just obtained. The final step involves a little bit of code—fear not, it's simpler than it sounds. Access your Theme Editor, enable the header code, and paste EchoBrain's script. Voilà, you're set!
 
-![EchoBrain website setting review](/assets/production-reviews-shop_admin_dashboard.jpg)
+![EchoBrain website setting review](/assets/posts/production-reviews-shop_admin_dashboard.jpg)
 
 ## Customization at Your Fingertips
 EchoBrain understands that your brand is unique, and your approach to customer engagement should be too. From the moment you choose to publish a review, it morphs to match your shop's design language, ensuring a cohesive user experience. But why stop there? Dive into EchoBrain's dashboard to tailor everything from review placements on your product pages to the nuances of your customer outreach emails. Want to focus reviews on specific products? EchoBrain has you covered.
 
-![EchoBrain website](/assets/beautifulbastard_products_plush-throw-blanket-echobrain.jpg)
+![EchoBrain website](/assets/posts/beautifulbastard_products_plush-throw-blanket-echobrain.jpg)
 
 ## EchoBrain: More Than a Platform, It's Your Growth Partner
 EchoBrain is more than just a tool; it's a testament to the power of community, trust, and authenticity in the e-commerce space. By making real customer experiences the cornerstone of your brand narrative, EchoBrain not only enhances your product pages but enriches your brand story, compelling visitors to become not just customers, but advocates. Welcome to the future of e-commerce, where EchoBrain is your partner in growth, every step of the way.

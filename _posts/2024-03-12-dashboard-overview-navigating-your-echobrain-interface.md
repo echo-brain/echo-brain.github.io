@@ -20,8 +20,10 @@ The Reviews section is a goldmine of customer insights. At a glance, you can see
 
 ![EchoBrain dashboard reviews](/assets/echo-brain.com_admin_content_reviews.jpg)
 
-# Diving Deeper: Individual Reviews
+## Diving Deeper: Individual Reviews
 Clicking on a specific review opens a new window of opportunity. You’ll see the customer's detailed thoughts and any photos they've uploaded. This intimate insight is crucial; not only does it help you understand your product's impact, but it also allows you to directly engage with the customer, showing that you value their input by publishing their review or replying to it.
+
+<video src="/assets/screen-dashboard-review-edit.mp4" muted="" autoplay="" width="100%" loop="" style="margin:15px 0;"></video>
 
 ## Questions: Fostering a Community
 In the Questions section, inquiries from customers await your expertise. It's a space for potential buyers to seek information, and your answers can dispel doubts and convert curiosity into sales. Editing and publishing these questions is a cinch, echoing the simplicity of managing reviews.
@@ -31,10 +33,13 @@ In the Questions section, inquiries from customers await your expertise. It's a 
 ## Bulk Actions: Efficiency at Its Best
 Time is money, and EchoBrain's import and export features understand that well. With just a few clicks, you can upload or download reviews and questions in bulk, making large-scale management tasks a breeze. This function is particularly useful when migrating data or updating your store en masse.
 
+
+<video src="/assets/admin-dashboard-import-export-reviews.mp4" muted="" autoplay="" controls width="100%" loop="" style="margin:15px 0;"></video>
+
 ## Your Store Settings
 Tailoring your EchoBrain review widgets to match your brand's aesthetic and functional needs is simple with the Settings section. Customize everything from the colors and appearance of your widgets to coupon codes and email templates. With EchoBrain, you’re in control of how your brand is presented and how you communicate with your customers.
 
-<video src="/assets/screenr-dashboard-setting-frontend.mp4" muted="" autoplay="" width="100%" loop=""></video>
+<video src="/assets/screenr-dashboard-setting-frontend.mp4" muted="" autoplay="" width="100%" loop="" style="margin:15px 0;"></video>
 
 The EchoBrain dashboard is designed to put you in the driver's seat of your e-commerce store's user-generated content. By understanding and utilizing each section – from viewing ratings at a glance to diving into the details of reviews and questions – you can harness the power of customer feedback to build a stronger, more responsive brand. Keep your EchoBrain tuned, and watch your online presence thrive.
 

@@ -1,0 +1,172 @@
+<section class="tiers" id="tiers">
+  <div class="tiers__inner">
+    <div class="container wrapper">
+      <div class="section-header">
+        <h2 class="section-header__heading section-header__heading--{{ include.heading_alignment }}">{{ include.heading }}</h2>
+      </div>
+      <br><br>
+
+      <div class="tiers__container{% if membership_tiers.size == 2 %} tiers__container--two-columns{% elsif membership_tiers.size == 1 %} tiers__container--one-column{% endif %}">
+        <div class="tiers__tier">
+          <div class="tiers__tier-heading">
+            <h3 class="tiers__tier-title">
+              Free
+            </h3>
+          </div>
+
+          <p class="tiers__tier-price">
+              $0
+          </p>
+
+          <div class="tiers__tier-cta">
+            <a
+              href="/admin/register/"
+              class="button button--primary button--small button--expand"
+            >
+              Start free
+            </a>
+          </div>
+
+          <div class="tiers__tier-annual-info">
+            No credit card required
+          </div>
+
+          <div class="tiers__tier-content">
+            <ul class="tiers__tier-features">
+              <li class="tiers__tier-feature">
+                <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
+                Up to 100 monthly requests
+              </li>
+              <li class="tiers__tier-feature">
+                <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
+                Email review requests
+              </li>
+              <li class="tiers__tier-feature">
+                <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
+                Customizable widgets
+              </li>
+              <li class="tiers__tier-feature">
+                <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
+                Approve/publish reviews to product pages
+              </li>
+              <li class="tiers__tier-feature">
+                <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
+                Photo reviews
+              </li>
+              <li class="tiers__tier-feature">
+                <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
+                Checkout reviews (verified reviews)
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tiers__tier">
+          <div class="tiers__tier-heading">
+            <h3 class="tiers__tier-title">
+              Grow
+            </h3>
+          </div>
+
+          <p class="tiers__tier-price">
+            Monthly: $18/month
+          </p>
+
+          <div class="tiers__tier-cta">
+            <a
+              href="/admin/register/"
+              class="button button--primary button--small button--expand"
+            >
+            Monthly
+            </a>
+          </div>
+
+          <div class="tiers__tier-annual-info">Pay every month</div>
+
+          <div class="tiers__tier-content">
+            <ul class="tiers__tier-features">
+              <li class="tiers__tier-feature">
+                <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
+                Up to 100 monthly requests
+              </li>
+              <li class="tiers__tier-feature">
+                <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
+                Email review requests
+              </li>
+              <li class="tiers__tier-feature">
+                <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
+                Customizable widgets
+              </li>
+              <li class="tiers__tier-feature">
+                <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
+                Approve/publish reviews to product pages
+              </li>
+              <li class="tiers__tier-feature">
+                <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
+                Photo reviews
+              </li>
+              <li class="tiers__tier-feature">
+                <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
+                Checkout reviews (verified reviews)
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tiers__tier">
+          <div class="tiers__tier-heading">
+            <h3 class="tiers__tier-title">
+              Grow
+            </h3>
+          </div>
+
+          <p class="tiers__tier-price">
+            Yearly: $15/month
+          </p>
+
+          <div class="tiers__tier-cta">
+            <a
+              href="/admin/register/"
+              class="button button--primary button--small button--expand"
+            >
+              Yearly
+            </a>
+          </div>
+
+          <div class="tiers__tier-annual-info">
+              Save 17% if you pay annually
+          </div>
+
+          <div class="tiers__tier-content">
+            <ul class="tiers__tier-features">
+              <li class="tiers__tier-feature">
+                <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
+                Up to 100 monthly requests
+              </li>
+              <li class="tiers__tier-feature">
+                <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
+                Email review requests
+              </li>
+              <li class="tiers__tier-feature">
+                <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
+                Customizable widgets
+              </li>
+              <li class="tiers__tier-feature">
+                <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
+                Approve/publish reviews to product pages
+              </li>
+              <li class="tiers__tier-feature">
+                <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
+                Photo reviews
+              </li>
+              <li class="tiers__tier-feature">
+                <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
+                Checkout reviews (verified reviews)
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

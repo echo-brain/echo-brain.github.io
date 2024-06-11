@@ -1,10 +1,89 @@
+<style>
+  /* The switch - the box around the slider */
+  .switch {
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    width: 3.5em;
+    height: 2em;
+  }
+
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #9fccfa;
+    border-radius: 50px;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  .slider:before {
+    position: absolute;
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2em;
+    width: 2em;
+    inset: 0;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  .switch input:checked + .slider {
+    background: #0974f1;
+  }
+
+  .switch input:focus + .slider {
+    box-shadow: 0 0 1px #0974f1;
+  }
+
+  .switch input:checked + .slider:before {
+    transform: translateX(1.6em);
+  }
+</style>
+<style>
+  .switch-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    padding: 25px 0;
+    justify-content: center;
+  }
+
+  .monthly {
+    background: linear-gradient(0deg, #ffffff, #dbfdff);
+  }
+
+  .yearly {
+    background: linear-gradient(0deg, #ffffff, #E8DBFF);
+  }
+</style>
 <section class="tiers" id="tiers">
   <div class="tiers__inner">
     <div class="container wrapper">
       <div class="section-header">
         <h2 class="section-header__heading section-header__heading--{{ include.heading_alignment }}">{{ include.heading }}</h2>
       </div>
-      <br><br>
+      <div class="switch-content">
+        <span>Monthly</span>
+        <label class="switch">
+          <input type="checkbox" id="toggle">
+          <span class="slider"></span>
+        </label>
+        <span>Yearly</span>
+      </div>
 
       <div class="tiers__container{% if membership_tiers.size == 2 %} tiers__container--two-columns{% elsif membership_tiers.size == 1 %} tiers__container--one-column{% endif %}">
         <div class="tiers__tier">
@@ -61,15 +140,15 @@
           </div>
         </div>
 
-        <div class="tiers__tier">
+        <div class="tiers__tier monthly">
           <div class="tiers__tier-heading">
             <h3 class="tiers__tier-title">
-              Grow
+              Grow<br>Monthly
             </h3>
           </div>
 
           <p class="tiers__tier-price">
-            Monthly: $18/month
+            Monthly: $15/month
           </p>
 
           <div class="tiers__tier-cta">
@@ -87,36 +166,127 @@
             <ul class="tiers__tier-features">
               <li class="tiers__tier-feature">
                 <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
-                Up to 100 monthly requests
+                All free plan features included
               </li>
               <li class="tiers__tier-feature">
                 <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
-                Email review requests
+                Up to 500 monthly review requests
               </li>
               <li class="tiers__tier-feature">
                 <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
-                Customizable widgets
+                CSS customization for reviews widge
               </li>
               <li class="tiers__tier-feature">
                 <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
-                Approve/publish reviews to product pages
+                Coupon codes to encourage supporters to submit reviews
               </li>
               <li class="tiers__tier-feature">
                 <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
-                Photo reviews
+                Ratings in Google SERP
               </li>
               <li class="tiers__tier-feature">
                 <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
-                Checkout reviews (verified reviews)
+                No-code integration
               </li>
             </ul>
           </div>
         </div>
 
-        <div class="tiers__tier">
+        <div class="tiers__tier yearly" style="display: none;">
           <div class="tiers__tier-heading">
             <h3 class="tiers__tier-title">
-              Grow
+              Grow<br>Yearly
+            </h3>
+          </div>
+
+          <p class="tiers__tier-price">
+            Yearly: $12/month
+          </p>
+
+          <div class="tiers__tier-cta">
+            <a
+              href="/admin/register/"
+              class="button button--primary button--small button--expand"
+            >
+            Yearly
+            </a>
+          </div>
+
+          <div class="tiers__tier-annual-info">Pay every year</div>
+
+          <div class="tiers__tier-content">
+            <ul class="tiers__tier-features">
+              <li class="tiers__tier-feature">
+                <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
+                All free plan features included
+              </li>
+              <li class="tiers__tier-feature">
+                <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
+                Up to 500 monthly review requests
+              </li>
+              <li class="tiers__tier-feature">
+                <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
+                CSS customization for reviews widge
+              </li>
+              <li class="tiers__tier-feature">
+                <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
+                Coupon codes to encourage supporters to submit reviews
+              </li>
+              <li class="tiers__tier-feature">
+                <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
+                Ratings in Google SERP
+              </li>
+              <li class="tiers__tier-feature">
+                <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
+                No-code integration
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="tiers__tier monthly">
+          <div class="tiers__tier-heading">
+            <h3 class="tiers__tier-title">
+              Enterprise<br>Monthly
+            </h3>
+          </div>
+
+          <p class="tiers__tier-price">
+            Monthly: $18/month
+          </p>
+
+          <div class="tiers__tier-cta">
+            <a
+              href="/admin/register/"
+              class="button button--primary button--small button--expand"
+            >
+              Monthly
+            </a>
+          </div>
+
+          <div class="tiers__tier-annual-info">
+            Pay every month
+          </div>
+
+          <div class="tiers__tier-content">
+            <ul class="tiers__tier-features">
+              <li class="tiers__tier-feature">
+                <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
+                All Grow plan features included
+              </li>
+              <li class="tiers__tier-feature">
+                <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
+                Up to 1000 monthly requests
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tiers__tier yearly" style="display: none;">
+          <div class="tiers__tier-heading">
+            <h3 class="tiers__tier-title">
+              Enterprise<br>Yearly
             </h3>
           </div>
 
@@ -134,34 +304,18 @@
           </div>
 
           <div class="tiers__tier-annual-info">
-              Save 17% if you pay annually
+            Pay every year
           </div>
 
           <div class="tiers__tier-content">
             <ul class="tiers__tier-features">
               <li class="tiers__tier-feature">
                 <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
-                Up to 100 monthly requests
+                All Grow plan features included
               </li>
               <li class="tiers__tier-feature">
                 <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
-                Email review requests
-              </li>
-              <li class="tiers__tier-feature">
-                <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
-                Customizable widgets
-              </li>
-              <li class="tiers__tier-feature">
-                <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
-                Approve/publish reviews to product pages
-              </li>
-              <li class="tiers__tier-feature">
-                <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
-                Photo reviews
-              </li>
-              <li class="tiers__tier-feature">
-                <span class="tiers__tier-feature-icon">{% include snippets/icon-tick.svg %}</span>
-                Checkout reviews (verified reviews)
+                Up to 1000 monthly requests
               </li>
             </ul>
           </div>
@@ -170,3 +324,46 @@
     </div>
   </div>
 </section>
+<script>
+  var radios = document.querySelectorAll('input[type="radio"]');
+  var submitButton = document.querySelector('input[type="submit"]');
+
+  function habilitarBoton() {
+      submitButton.disabled = false;
+  }
+
+  radios.forEach(function(radio) {
+      radio.addEventListener('change', habilitarBoton);
+  });
+
+  // Toggle monthly and yearly plans
+  var toggle = document.getElementById('toggle');
+  var monthly = document.querySelectorAll('.monthly');
+  var yearly = document.querySelectorAll('.yearly');
+
+  toggle.addEventListener('change', function() {
+
+    console.log(toggle)
+    console.log(toggle.checked)
+
+    radios.forEach(function(radio) {
+      radio.checked = false;
+    });
+
+    if (toggle.checked) {
+      monthly.forEach(function(monthly) {
+        monthly.style.display = 'none';
+      });
+      yearly.forEach(function(yearly) {
+        yearly.style.display = 'block';
+      });
+    } else {
+      monthly.forEach(function(monthly) {
+        monthly.style.display = 'block';
+      });
+      yearly.forEach(function(yearly) {
+        yearly.style.display = 'none';
+      });
+    }
+  });
+</script>

@@ -41,6 +41,8 @@ Tailoring your EchoBrain review widgets to match your brand's aesthetic and func
 
 <video src="/assets/posts/screenr-dashboard-setting-frontend.mp4" muted="" autoplay="" width="100%" loop="" style="margin:15px 0;"></video>
 
+For a deep dive into how further customize EchoBrain widgets to adopt your brand's essence, click [here](https://echo-brain.com/blog/documentation/customization-crafting-your-unique-brand-experience/).
+
 The EchoBrain dashboard is designed to put you in the driver's seat of your e-commerce store's user-generated content. By understanding and utilizing each section – from viewing ratings at a glance to diving into the details of reviews and questions – you can harness the power of customer feedback to build a stronger, more responsive brand. Keep your EchoBrain tuned, and watch your online presence thrive.
 
 

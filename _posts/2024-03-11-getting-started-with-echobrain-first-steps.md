@@ -13,21 +13,29 @@ Welcome aboard, creators! Diving into the world of EchoBrain is the first step t
 ### Step 1: Sign Up and Dive In
 Your adventure with EchoBrain begins at the very start – registration. Head over to [EchoBrain's registration page](https://echo-brain.com/admin/register/) to create your account. This is where the transformation of your e-commerce strategy starts. Once registered, you'll be ushered into your personal EchoBrain dashboard, the command center for your upcoming endeavors.
 
-![EchoBrain register](/assets/posts/echo-brain.com_admin_register.jpg)
+![EchoBrain register](/assets/posts/echo-brain.com_admin_register_1.jpg)
 
 ### Step 2: Unlock Your EchoBrain Toolkit
-Inside your EchoBrain dashboard lies the key to connecting EchoBrain with your online shop – your unique shop ID, the Webhook URL, and the script to include in your shop. Navigate to your [account admin homepage](https://echo-brain.com/admin/) to find these crucial pieces of information. Look for "Shop ID", "Webhook", or "Script" at the top of the page. First, click on "Webhook", and copy and save the URL that pops up. Then, click on "Script", and copy and save the HTML that pops up. These are the Webhook URL that you'll need to include in your shop's settings in Step 3 and the HTML you will need to include in your shop's code in Step 4. This process is designed to be straightforward and hassle-free, ensuring you can quickly move on to the exciting part: integration and customization.
+Inside your EchoBrain dashboard lies the key to connecting EchoBrain with your online shop – your unique shop ID, the Webhook URL, and the script to include in your shop. Navigate to your [account admin homepage](https://echo-brain.com/admin/) to find these crucial pieces of information. Look for "Shop ID", "Webhook", or "Script" at the top of the page. First, click on "Webhook", and copy and save the URL that pops up. 
 
 ![Webhook URL in EchoBrain dashboard](/assets/posts/echo-brain.com_admin_webhook_url.jpg)
 
-![Shop ID and Script in EchoBrain dashboard](/assets/posts/echo-brain.com_admin_shopid_and_script.jpg)
+Then, click on "Script", and copy and save the HTML that pops up.
+
+![Shop ID and Script in EchoBrain dashboard](/assets/posts/echo-brain.com_admin_shopid_and_script_1.jpg)
+
+These are the Webhook URL that you'll need to include in your shop's settings in Step 3 and the HTML you will need to include in your shop's code in Step 4. This process is designed to be straightforward and hassle-free, ensuring you can quickly move on to the exciting part: integration and customization.
 
 ### Step 3: Integrate EchoBrain with Your Shop
 Now, it's time to bridge your shop with EchoBrain.
 
-If you're using Fourthwall as your shop's platform, login into your shop's admin. Then, click on "Settings" on the left-hand sidebar, and then on "For developers". After that, in the "Webhooks" section, click on "Create webhook"; then, on the "Add event" combobox, select "Order placed", and on the "URL" combobox, paste the Webhook URL you copied in Step 2.
+If you're using Fourthwall as your shop's platform, login into your shop's admin. Then, click on "Settings" on the left-hand sidebar, and then on "For developers".
 
-![Create Order Webhook in EchoBrain dashboard](/assets/posts/echo-brain.com_admin_create_webhook.jpg)
+![Developers settings in Fourthwall dashboard](/assets/posts/echo-brain.com_admin_settings_developers.jpg)
+
+After that, in the "Webhooks" section, click on "Create webhook"; then, on the "Add event" combobox, select "Order placed", and on the "URL" combobox, paste the Webhook URL you copied in Step 2.
+
+![Create Order Webhook in Fourthwall dashboard](/assets/posts/echo-brain.com_admin_create_webhook.jpg)
 
 If you're using another platform, locate the EchoBrain app within your shop's dashboard and input the information you retrieved earlier. Connecting EchoBrain is as simple as clicking "Connect". This seamless integration is the first step in bringing the power of customer reviews and social proof to your storefront.
 
@@ -45,8 +53,6 @@ Then, click on "Edit code (advanced)".
 Check the "Enable header code" checkbox, grab the HTML code you copied and saved in Step 2, and insert it into the textbox area that says "custom header HTML".
 
 ![Check the Enable header code checkbox](/assets/posts/echo-brain.com_admin_enable_header_code_html.jpg)
-
-![Insert HTML code into textarea](/assets/posts/echo-brain.com_admin_create_webhook.jpg)
 
 ![After inserting HTML code into textarea](/assets/posts/production-reviews-shop_admin_dashboard.jpg)
 

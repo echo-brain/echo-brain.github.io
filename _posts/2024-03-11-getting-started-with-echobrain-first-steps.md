@@ -56,7 +56,7 @@ Check the "Enable header code" checkbox, grab the HTML code you copied and saved
 
 ![After inserting HTML code into textarea](/assets/posts/production-reviews-shop_admin_dashboard.jpg)
 
-But EchoBrain's customization capabilities don't end there. Dive into your EchoBrain dashboard to personalize everything from the aesthetic of published reviews to the strategic placement of these testimonials on your site. EchoBrain ensures that every review not only looks like a natural part of your store but also enhances the shopper's journey.
+But EchoBrain's customization capabilities don't end there. Dive into your EchoBrain dashboard to personalize everything from the aesthetic of published reviews to the strategic placement of these testimonials on your site. EchoBrain ensures that every review not only looks like a natural part of your store but also enhances the shopper's journey. For a good overview of the personalization you can achieve in your EchoBrain dashboard, click [here](https://echo-brain.com/blog/documentation/dashboard-overview-navigating-your-echobrain-interface/)
 
 ## Embrace the EchoBrain Advantage
 Getting started with EchoBrain is more than setting up a platform; it's about laying the foundation for a more engaged, trustworthy, and customer-centric online store. By integrating EchoBrain, you're tapping into the collective power of your customer base, transforming their experiences into your brand's most compelling selling points.

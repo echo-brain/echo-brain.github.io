@@ -10,6 +10,7 @@ tags: [Documentation, Integration, Customization]
 
 Welcome aboard, creators! Diving into the world of EchoBrain is the first step towards revolutionizing your e-commerce journey. This easy-to-follow guide is designed to walk you through the initial phases of integrating EchoBrain into your online store. With EchoBrain, you're not just adopting a platform; you're embracing a community-driven approach to enhance your brand's authenticity and customer engagement. Let's embark on this journey together, step by step.
 
+
 ### Step 1: Sign Up and Dive In
 Your adventure with EchoBrain begins at the very start – registration. Head over to [EchoBrain's registration page](https://echo-brain.com/admin/register/) to create your account. This is where the transformation of your e-commerce strategy starts. Once registered, you'll be ushered into your personal EchoBrain dashboard, the command center for your upcoming endeavors.
 

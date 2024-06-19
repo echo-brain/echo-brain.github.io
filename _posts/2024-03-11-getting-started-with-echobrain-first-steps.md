@@ -15,6 +15,13 @@ Your adventure with EchoBrain begins at the very start – registration. Head ov
 
 ![EchoBrain register](/assets/posts/echo-brain.com_admin_register_1.jpg)
 
+The registration form will ask you for basic information about your store and yourself. About your store, you will need to enter the following information:
+
+- Store name: This is the name of your store. If you are using Fourthwall as your ecommerce platform, the name of your store could be, for example, "Gatilicious Merch"
+- Store domain: This is the domain of your store. For example, it could be "gatilicious.com" or your Fourthwall's shop internal domain, like "gatilicious-shop.fourthwall.com"
+
+The rest of the fields are regarding the admin of your account. It could be yourself: your first name, your last name, the username you will want to use, your email address, and the password you want to use to log into your account.
+
 ### Step 2: Unlock Your EchoBrain Toolkit
 Inside your EchoBrain dashboard lies the key to connecting EchoBrain with your online shop – your unique shop ID, the Webhook URL, and the script to include in your shop. Navigate to your [account admin homepage](https://echo-brain.com/admin/) to find these crucial pieces of information. Look for "Shop ID", "Webhook", or "Script" at the top of the page. First, click on "Webhook", and copy and save the URL that pops up. 
 
@@ -42,7 +49,7 @@ If you're using another platform, locate the EchoBrain app within your shop's da
 ### Step 4: Customize Your Customer Experience
 EchoBrain doesn't just collect reviews; it transforms them into an integral part of your brand's narrative. Through your Fourthwall shop's Theme Editor, you can inject EchoBrain's script to start the magic. This script is more than just code; it's the gateway to displaying authentic customer reviews, complete with images and ratings, right on your product pages.
 
-So, go into your Fourthwall shop's Theme Editor by going to your shop's admin and clicking on "Site Design".
+So, go into your Fourthwall shop's Theme Editor by going to your shop's admin and clicking on "Site design".
 
 ![Fourthwall shop admin](/assets/posts/echo-brain.com_admin_fw_dashboard_sidebar.jpg)
 

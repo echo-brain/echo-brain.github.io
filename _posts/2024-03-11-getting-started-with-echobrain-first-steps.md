@@ -22,6 +22,8 @@ The registration form will ask you for basic information about your store and yo
 
 The rest of the fields are regarding the admin of your account. It could be yourself: your first name, your last name, the username you will want to use, your email address, and the password you want to use to log into your account.
 
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/wy0ECPHxG9o?si=DoYjr77wSJ3kcMS7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### Step 2: Unlock Your EchoBrain Toolkit
 Inside your EchoBrain dashboard lies the key to connecting EchoBrain with your online shop – your unique shop ID, the Webhook URL, and the script to include in your shop. Navigate to your [account admin homepage](https://echo-brain.com/admin/) to find these crucial pieces of information. Look for "Shop ID", "Webhook", or "Script" at the top of the page. First, click on "Webhook", and copy and save the URL that pops up. 
 

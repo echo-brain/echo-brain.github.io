@@ -24,6 +24,7 @@ The rest of the fields are regarding the admin of your account. It could be your
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/wy0ECPHxG9o?si=DoYjr77wSJ3kcMS7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+
 ### Step 2: Unlock Your EchoBrain Toolkit
 Inside your EchoBrain dashboard lies the key to connecting EchoBrain with your online shop – your unique shop ID, the Webhook URL, and the script to include in your shop. Navigate to your [account admin homepage](https://echo-brain.com/admin/) to find these crucial pieces of information. Look for "Shop ID", "Webhook", or "Script" at the top of the page. First, click on "Webhook", and copy and save the URL that pops up. 
 
@@ -34,6 +35,7 @@ Then, click on "Script", and copy and save the HTML that pops up.
 ![Shop ID and Script in EchoBrain dashboard](/assets/posts/echo-brain.com_admin_shopid_and_script_1.jpg)
 
 These are the Webhook URL that you'll need to include in your shop's settings in Step 3 and the HTML you will need to include in your shop's code in Step 4. This process is designed to be straightforward and hassle-free, ensuring you can quickly move on to the exciting part: integration and customization.
+
 
 ### Step 3: Integrate EchoBrain with Your Shop
 Now, it's time to bridge your shop with EchoBrain.
@@ -47,6 +49,7 @@ After that, in the "Webhooks" section, click on "Create webhook"; then, on the "
 ![Create Order Webhook in Fourthwall dashboard](/assets/posts/echo-brain.com_admin_create_webhook.jpg)
 
 If you're using another platform, locate the EchoBrain app within your shop's dashboard and input the information you retrieved earlier. Connecting EchoBrain is as simple as clicking "Connect". This seamless integration is the first step in bringing the power of customer reviews and social proof to your storefront.
+
 
 ### Step 4: Customize Your Customer Experience
 EchoBrain doesn't just collect reviews; it transforms them into an integral part of your brand's narrative. Through your Fourthwall shop's Theme Editor, you can inject EchoBrain's script to start the magic. This script is more than just code; it's the gateway to displaying authentic customer reviews, complete with images and ratings, right on your product pages.
@@ -66,6 +69,7 @@ Check the "Enable header code" checkbox, grab the HTML code you copied and saved
 ![After inserting HTML code into textarea](/assets/posts/production-reviews-shop_admin_dashboard.jpg)
 
 But EchoBrain's customization capabilities don't end there. Dive into your EchoBrain dashboard to personalize everything from the aesthetic of published reviews to the strategic placement of these testimonials on your site. EchoBrain ensures that every review not only looks like a natural part of your store but also enhances the shopper's journey. For a good overview of the personalization you can achieve in your EchoBrain dashboard, click [here](https://echo-brain.com/blog/documentation/dashboard-overview-navigating-your-echobrain-interface/).
+
 
 ## Embrace the EchoBrain Advantage
 Getting started with EchoBrain is more than setting up a platform; it's about laying the foundation for a more engaged, trustworthy, and customer-centric online store. By integrating EchoBrain, you're tapping into the collective power of your customer base, transforming their experiences into your brand's most compelling selling points.

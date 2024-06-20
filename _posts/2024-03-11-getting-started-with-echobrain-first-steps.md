@@ -11,7 +11,7 @@ tags: [Documentation, Integration, Customization]
 Welcome aboard, creators! Diving into the world of EchoBrain is the first step towards revolutionizing your e-commerce journey. This easy-to-follow guide is designed to walk you through the initial phases of integrating EchoBrain into your online store. With EchoBrain, you're not just adopting a platform; you're embracing a community-driven approach to enhance your brand's authenticity and customer engagement. Let's embark on this journey together, step by step.
 
 
-### Step 1: Sign Up and Dive In
+## Step 1: Sign Up and Dive In
 Your adventure with EchoBrain begins at the very start – registration. Head over to [EchoBrain's registration page](https://echo-brain.com/admin/register/) to create your account. This is where the transformation of your e-commerce strategy starts. Once registered, you'll be ushered into your personal EchoBrain dashboard, the command center for your upcoming endeavors.
 
 ![EchoBrain register](/assets/posts/echo-brain.com_admin_register_1.jpg)
@@ -26,7 +26,7 @@ The rest of the fields are regarding the admin of your account. It could be your
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/wy0ECPHxG9o?si=DoYjr77wSJ3kcMS7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-### Step 2: Unlock Your EchoBrain Toolkit
+## Step 2: Unlock Your EchoBrain Toolkit
 Inside your EchoBrain dashboard lies the key to connecting EchoBrain with your online shop – your unique shop ID, the Webhook URL, and the script to include in your shop. Navigate to your [account admin homepage](https://echo-brain.com/admin/) to find these crucial pieces of information. Look for "Shop ID", "Webhook", or "Script" at the top of the page. First, click on "Webhook", and copy and save the URL that pops up. 
 
 ![Webhook URL in EchoBrain dashboard](/assets/posts/echo-brain.com_admin_webhook_url.jpg)
@@ -38,7 +38,7 @@ Then, click on "Script", and copy and save the HTML that pops up.
 These are the Webhook URL that you'll need to include in your shop's settings in Step 3 and the HTML you will need to include in your shop's code in Step 4. This process is designed to be straightforward and hassle-free, ensuring you can quickly move on to the exciting part: integration and customization.
 
 
-### Step 3: Integrate EchoBrain with Your Shop
+## Step 3: Integrate EchoBrain with Your Shop
 Now, it's time to bridge your shop with EchoBrain.
 
 If you're using Fourthwall as your shop's platform, login into your shop's admin. Then, click on "Settings" on the left-hand sidebar, and then on "For developers".
@@ -52,7 +52,7 @@ After that, in the "Webhooks" section, click on "Create webhook"; then, on the "
 If you're using another platform, locate the EchoBrain app within your shop's dashboard and input the information you retrieved earlier. Connecting EchoBrain is as simple as clicking "Connect". This seamless integration is the first step in bringing the power of customer reviews and social proof to your storefront.
 
 
-### Step 4: Customize Your Customer Experience
+## Step 4: Customize Your Customer Experience
 EchoBrain doesn't just collect reviews; it transforms them into an integral part of your brand's narrative. Through your Fourthwall shop's Theme Editor, you can inject EchoBrain's script to start the magic. This script is more than just code; it's the gateway to displaying authentic customer reviews, complete with images and ratings, right on your product pages.
 
 So, go into your Fourthwall shop's Theme Editor by going to your shop's admin and clicking on "Site design".

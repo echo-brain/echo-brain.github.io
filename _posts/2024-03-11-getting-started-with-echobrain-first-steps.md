@@ -21,7 +21,7 @@ The registration form will ask you for basic information about your store and yo
 - Store name: This is the name of your store. If you are using Fourthwall as your ecommerce platform, the name of your store could be, for example, "Gatilicious Merch"
 - Store domain: This is the domain of your store. For example, it could be "gatilicious.com" or your Fourthwall's shop internal domain, like "gatilicious-shop.fourthwall.com"
 
-The rest of the fields are regarding the admin of your account. It could be yourself: your first name, your last name, the username you will want to use, your email address, and the password you want to use to log into your account.
+The rest of the fields are regarding the person who is going to be the admin of your account. It could be yourself: your first name, your last name, the username you will want to use, your email address, and the password you want to use to log into your account.
 
 <iframe width="100%" height="630" src="https://www.youtube.com/embed/wy0ECPHxG9o?si=DoYjr77wSJ3kcMS7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

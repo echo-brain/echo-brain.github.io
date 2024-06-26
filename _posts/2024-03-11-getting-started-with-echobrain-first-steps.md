@@ -53,6 +53,8 @@ After that, in the "Webhooks" section, click on "Create webhook"; then, on the "
 
 If you're using another platform, locate the EchoBrain app within your shop's dashboard and input the information you retrieved earlier. Connecting EchoBrain is as simple as clicking "Connect". This seamless integration is the first step in bringing the power of customer reviews and social proof to your storefront.
 
+<iframe width="100%" height="630" src="https://www.youtube.com/embed/sMpdTKv2-Ng?si=x1lccEosCtwvKdLx" title="Unlock Your EchoBrain Toolkit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ## Step 4: Customize Your Customer Experience
 EchoBrain doesn't just collect reviews; it transforms them into an integral part of your brand's narrative. Through your Fourthwall shop's Theme Editor, you can inject EchoBrain's script to start the magic. This script is more than just code; it's the gateway to displaying authentic customer reviews, complete with images and ratings, right on your product pages.

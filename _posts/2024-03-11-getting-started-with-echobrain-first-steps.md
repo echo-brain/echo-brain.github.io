@@ -53,7 +53,7 @@ After that, in the "Webhooks" section, click on "Create webhook"; then, on the "
 
 If you're using another platform, locate the EchoBrain app within your shop's dashboard and input the information you retrieved earlier. Connecting EchoBrain is as simple as clicking "Connect". This seamless integration is the first step in bringing the power of customer reviews and social proof to your storefront.
 
-<iframe width="100%" height="630" src="https://www.youtube.com/embed/sMpdTKv2-Ng?si=x1lccEosCtwvKdLx" title="Unlock Your EchoBrain Toolkit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="630" src="https://www.youtube.com/embed/sMpdTKv2-Ng?si=x1lccEosCtwvKdLx" title="Integrate EchoBrain with Your Shop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ## Step 4: Customize Your Customer Experience
@@ -74,6 +74,8 @@ Check the "Enable header code" checkbox, grab the HTML code you copied and saved
 ![After inserting HTML code into textarea](/assets/posts/production-reviews-shop_admin_dashboard.jpg)
 
 But EchoBrain's customization capabilities don't end there. Dive into your EchoBrain dashboard to personalize everything from the aesthetic of published reviews to the strategic placement of these testimonials on your site. EchoBrain ensures that every review not only looks like a natural part of your store but also enhances the shopper's journey. For a good overview of the personalization you can achieve in your EchoBrain dashboard, click [here](https://echo-brain.com/blog/documentation/dashboard-overview-navigating-your-echobrain-interface/).
+
+<iframe width="100%" height="630" src="https://www.youtube.com/embed/CznbJgZYqwA?si=NxToHUcrYRsRAn7w" title="How to Integrate EchoBrain Script into Your Fourtwall Shop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ## Embrace the EchoBrain Advantage

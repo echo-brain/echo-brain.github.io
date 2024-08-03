@@ -77,6 +77,28 @@ But EchoBrain's customization capabilities don't end there. Dive into your EchoB
 
 <iframe width="100%" height="630" src="https://www.youtube.com/embed/CznbJgZYqwA?si=NxToHUcrYRsRAn7w" title="How to Integrate EchoBrain Script into Your Fourtwall Shop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## Step 5: Showcasing Your Reviews Widget
+Now that you've set up your EchoBrain account and customized your review settings, it's time to let your customer reviews shine on your store. This step will guide you through two methods to display the EchoBrain reviews widget in your desired locations on your site.
+
+**Method 1: Adding HTML Placeholders**
+To begin with, you can manually add empty HTML placeholders within your theme code. These placehodlers act as designated spots where EchoBrain will insert the reviews widget. Here's how to do it:
+
+ 1. **Identify the areas:** Identify the areas where you want the reviews widgets to appear, such as below the main product section. Add an empty HTML placeholder like this: `<div class="echobrain-reviews-placeholder"></div>`. If you don't have access to make this code change yourself, contact support to have Fourthwall's developer team do it for you and add the placeholders in the areas that you have identified.
+
+ 2. **Save Changes:** Save the changes to your theme code. EchoBrain's script will automatically detect these placeholders and populate them with the review widgets.
+
+**Method 2: Using CSS Selectors**
+If you prefer a more dynamic approach, you can enable the "CSS selectors" feature in the EchoBrain dashboard. This allows you to specify the exact elements on your site after which the reviews widgets will be inserted. Follow these steps:
+
+ 1. **Enable CSS Selectors:** Log in to your EchoBrain dashboard and click on the "Settings" link on the sidebar menu. Then scroll down to the "Selectors" section and make sure the "Enable CSS Selectors" checkbox is checked to enable the "CSS selectors feature".
+
+ 2. **Define Selectors:** Specify the CSS selectors corresponding to the elements you want the reviews to follow. For example, if you want the widget to appear after the main product section, you might use a selector like `.product-section`, or, to be more precise, something like `.fw-section > .product-reviews > .container.wrapper > div`
+
+ 3. **Save Your Configuration:** Save your changes. EchoBrain will now insert each review widget immediately after the elements matched by your CSS selectors.
+
+**Final Steps**
+After applying either method, visit your store to verify that the reviews widgets are displaying correctly. If you encounter any issues, the EchoBrain support team is ready to assist you. Congratulations, you're now ready to showcase your customer reviews and build stronger trust with your audience!
+By following these steps, you're ensuring that EchoBrain seamlessly integrates into your store, providing your customers with authentic and engaging reviews exactly where they're most impactful. Enjoy the enhanced engagement and credibility that EchoBrain brings to your e-commerce journey!
 
 ## Embrace the EchoBrain Advantage
 Getting started with EchoBrain is more than setting up a platform; it's about laying the foundation for a more engaged, trustworthy, and customer-centric online store. By integrating EchoBrain, you're tapping into the collective power of your customer base, transforming their experiences into your brand's most compelling selling points.

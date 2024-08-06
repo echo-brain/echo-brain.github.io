@@ -56,7 +56,7 @@ If you're using another platform, locate the EchoBrain app within your shop's da
 <iframe width="100%" height="630" src="https://www.youtube.com/embed/sMpdTKv2-Ng?si=x1lccEosCtwvKdLx" title="Integrate EchoBrain with Your Shop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-## Step 4: Customize Your Customer Experience
+## Step 4: Include EchoBrain's script in your theme
 EchoBrain doesn't just collect reviews; it transforms them into an integral part of your brand's narrative. Through your Fourthwall shop's Theme Editor, you can inject EchoBrain's script to start the magic. This script is more than just code; it's the gateway to displaying authentic customer reviews, complete with images and ratings, right on your product pages.
 
 So, go into your Fourthwall shop's Theme Editor by going to your shop's admin and clicking on "Site design".
@@ -77,8 +77,8 @@ But EchoBrain's customization capabilities don't end there. Dive into your EchoB
 
 <iframe width="100%" height="630" src="https://www.youtube.com/embed/CznbJgZYqwA?si=NxToHUcrYRsRAn7w" title="How to Integrate EchoBrain Script into Your Fourtwall Shop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Step 5: Showcasing Your Reviews Widget
-Now that you've set up your EchoBrain account and customized your review settings, it's time to let your customer reviews shine on your store. This step will guide you through two methods to display the EchoBrain reviews widget in your desired locations on your site.
+## Step 5: Showcase Your Reviews Widget
+Now that you've set up your EchoBrain account and integrated it with your shop, it's time to let your customer reviews shine on your store. This step will guide you through two methods to display the EchoBrain reviews widget in your desired locations on your site.
 
 **Method 1: Adding HTML Placeholders**
 

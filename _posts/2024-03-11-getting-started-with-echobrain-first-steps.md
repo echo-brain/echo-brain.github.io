@@ -84,7 +84,7 @@ Now that you've set up your EchoBrain account and integrated it with your shop, 
 
 To begin with, you can manually add empty HTML placeholders within your theme code. These placehodlers act as designated spots where EchoBrain will insert the reviews widget. Here's how to do it:
 
- 1. **Identify the areas:** Identify the areas where you want the reviews widgets to appear, such as below the main product section. Add an empty HTML placeholder like the ones shown below. If you don't have access to make this code change yourself, contact support to have Fourthwall's developer team do it for you and add the placeholders in the areas that you have identified. The HTML placeholders for the currently available widgets look like the following:
+ **1. Identify the areas:** Identify the areas where you want the reviews widgets to appear, such as below the main product section. Add an empty HTML placeholder like the ones shown below. If you don't have access to make this code change yourself, contact support to have Fourthwall's developer team do it for you and add the placeholders in the areas that you have identified. The HTML placeholders for the currently available widgets look like the following:
 
 *Main Reviews widget:*
  ```
@@ -102,12 +102,13 @@ To begin with, you can manually add empty HTML placeholders within your theme co
 
  One of the most important things when you add the above code is for you to include the `data-reviews="container"` attribute.
 
+
 *Ratings summary widget (to show rating average and stars):*
 ```
 <div data-reviews-summary="{{ product.id }}"></div>
 ```
 
- 2. **Save Changes:** Save the changes to your theme code. EchoBrain's script will automatically detect these placeholders and populate them with the review widgets.
+ **2. Save Changes:** Save the changes to your theme code. EchoBrain's script will automatically detect these placeholders and populate them with the review widgets.
 
 **Method 2: Using CSS Selectors**
 

@@ -114,13 +114,13 @@ To begin with, you can manually add empty HTML placeholders within your theme co
 
 If you prefer a more dynamic approach, you can enable the "CSS selectors" feature in the EchoBrain dashboard. This allows you to specify the exact elements on your site after which the reviews widgets will be inserted. Follow these steps:
 
- 1. **Enable CSS Selectors:** Log in to your EchoBrain dashboard and click on the "Settings" link on the sidebar menu. Then scroll down to the "Selectors" section and make sure the "Enable CSS Selectors" checkbox is checked to enable the "CSS selectors feature".
+ **1. Enable CSS Selectors:** Log in to your EchoBrain dashboard and click on the "Settings" link on the sidebar menu. Then scroll down to the "Selectors" section and make sure the "Enable CSS Selectors" checkbox is checked to enable the "CSS selectors feature".
 
- 2. **Define Selectors:** Specify the CSS selectors corresponding to the elements you want the reviews to follow. For example, if you want the widget to appear after the main product section, you might use a selector like `.product-section`, or, to be more precise, something like `.fw-section > .product-reviews > .container.wrapper > div`
+ **2. Define Selectors:** Specify the CSS selectors corresponding to the elements you want the reviews to follow. For example, if you want the widget to appear after the main product section, you might use a selector like `.product-section`, or, to be more precise, something like `.fw-section > .product-reviews > .container.wrapper > div`
 
- 3. **Save Your Configuration:** Save your changes. EchoBrain will now insert each review widget immediately after the elements matched by your CSS selectors.
+ **3. Save Your Configuration:** Save your changes. EchoBrain will now insert each review widget immediately after the elements matched by your CSS selectors.
 
-**Final Steps**
+### Final Steps
 
 After applying either method, visit your store to verify that the reviews widgets are displaying correctly. If you encounter any issues, the EchoBrain support team is ready to assist you. Congratulations, you're now ready to showcase your customer reviews and build stronger trust with your audience!
 By following these steps, you're ensuring that EchoBrain seamlessly integrates into your store, providing your customers with authentic and engaging reviews exactly where they're most impactful. Enjoy the enhanced engagement and credibility that EchoBrain brings to your e-commerce journey!

@@ -105,7 +105,7 @@ To begin with, you can manually add empty HTML placeholders within your theme co
 
 *Ratings summary widget (to show rating average and stars):*
 ```
-<div data-reviews-summary="{{ product.id }}"></div>
+<div data-reviews-summary="\{\{ product.id \}\}"></div>
 ```
 
  **2. Save Changes:** Save the changes to your theme code. EchoBrain's script will automatically detect these placeholders and populate them with the review widgets.

@@ -80,7 +80,7 @@ But EchoBrain's customization capabilities don't end there. Dive into your EchoB
 ## Step 5: Showcase Your Reviews Widget
 Now that you've set up your EchoBrain account and integrated it with your shop, it's time to let your customer reviews shine on your store. This step will guide you through two methods to display the EchoBrain reviews widget in your desired locations on your site.
 
-**Method 1: Adding HTML Placeholders**
+### Method 1: Adding HTML Placeholders
 
 To begin with, you can manually add empty HTML placeholders within your theme code. These placehodlers act as designated spots where EchoBrain will insert the reviews widget. Here's how to do it:
 
@@ -110,7 +110,7 @@ To begin with, you can manually add empty HTML placeholders within your theme co
 
  **2. Save Changes:** Save the changes to your theme code. EchoBrain's script will automatically detect these placeholders and populate them with the review widgets.
 
-**Method 2: Using CSS Selectors**
+### Method 2: Using CSS Selectors
 
 If you prefer a more dynamic approach, you can enable the "CSS selectors" feature in the EchoBrain dashboard. This allows you to specify the exact elements on your site after which the reviews widgets will be inserted. Follow these steps:
 

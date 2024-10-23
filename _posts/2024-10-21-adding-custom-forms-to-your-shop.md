@@ -13,6 +13,8 @@ Building a strong connection with your customers starts with understanding their
 ## Navigating to the Forms Dashboard
 After logging into your EchoBrain account, you'll find yourself on the main dashboard, where you can manage various aspects of your store. To start working with forms, look to the left-side bar and click on **Forms** under the "Forms" section. This will take you to the Forms page, where you can see any existing forms and manage submissions.
 
+![EchoBrain forms dashboard](/assets/posts/echo-brain.com_admin_forms_dashboard.jpg)
+
 ## Step-by-Step: Creating a New Form
 1. Click on "Add Form +": On the Forms page, you will see the option to add a new form in the upper-right corner. Click on the "Add Form +" button to create a new form. You'll be directed to a page where you can set up the details of your form.
 
@@ -21,6 +23,10 @@ After logging into your EchoBrain account, you'll find yourself on the main dash
 3. Spam Protection: You'll also notice fields for spam protection. Here you can input a list of blocked words, select an anti-spam protection level, and, if necessary, enter the secret key for the anti-spam service you choose to use. Though optional, enabling spam protection can help keep your submissions clean and relevant.
 
 4. Save and Get the Form Endpoint: Once all necessary fields are filled out, click the **Save** button. A **Form Endpoint** will be generated upon saving. This endpoint is crucial, as it's where you will direct all form submissions.
+
+![Create a new form with EchoBrain](/assets/posts/echo-brain.com_admin_create_form.jpg)
+
+![Get the new form endpoint](/assets/posts/echo-brain.com_admin_edit_form.jpg)
 
 ## Using the Form Endpoint
 Once you have your Form Endpoint, you're ready to integrate the form into your website. Here's how you can implement it using HTML or Javascript.
@@ -67,6 +73,8 @@ Again, ensure that each input element in your form has a `name` attribute to ens
 Once your forms are live, you can track and manage submissions directly within EchoBrain. Click on the form you want to see the submissions for, and you'll see a page where you can edit the form details. If you scroll down, you will also view all the data collected from users under "Submissions". This includes email addresses, phone numbers, or any other details you've asked for in your custom form fields.
 
 You can also delete submissions that are no longer relevant or flagged as spam. This gives you full control over your customer data, keeping your forms and customer interaction organized and efficient.
+
+![Manage form submissions on EchoBrain](/assets/posts/echo-brain.com_admin_form_submissions.jpg)
 
 ## Conclusion
 Creating custom forms in EchoBrain is a straightforward yet powerful way to capture meaningful customer data. By following the steps outlined in this guide, you can seamlessly integrate forms into your ecommerce shop, whether you're collecitng newsletter sign-ups or customer feedback. Keep your audience engaged and your brand growing with EchoBrain's flexible form functionality.

@@ -3,49 +3,74 @@ layout: article
 title: "Forms: Adding custom forms to your shop"
 description: "Discover how you can create completely custom forms on your shop with EchoBrain."
 date: 2024-10-21
-image: /assets/posts/store-fourthwall-echobrain.jpg
+image: /assets/posts/echo-brain.com_admin_custom_forms_setup.jpg
 categories: ['documentation']
 tags: [Documentation, Customization]
 ---
 
-Custom forms
+Building a strong connection with your customers starts with understanding their needs and preferences. One way to achieve this is through custom forms, which can collect valuable information for a tailored experience on your ecommerce site. If you're using the EchoBrain app, this guide will walk you through creating and customizing forms to suit your business needs.
 
-Let's chat about how you can make EchoBrain reviews adopt your brand’s essence with some simple tweaks. Let’s get started!
-
-## Making EchoBrain Look Like Your Shop
-When you first hop into EchoBrain’s dashboard, it already knows your shop's style. It takes a peek at your shop and matches things up. Want to switch things up a bit? No problem. You can change the logo anytime in the dashboard – just a few clicks and you're set.
+## Navigating to the Forms Dashboard
+After logging into your EchoBrain account, you'll find yourself on the main dashboard, where you can manage various aspects of your store. To start working with forms, look to the left-side bar and click on **Forms** under the "Forms" section. This will take you to the Forms page, where you can see any existing forms and manage submissions.
 
 ![EchoBrain dashboard logo and identity](/assets/posts/echo-brain.com_admin_store_domains_logo_identity.png)
 
-## Your Brand’s Colors
-EchoBrain gets its color vibe from your store too, but hey, we all like options, right? If you’re feeling creative, splash on some new colors. Change the primary color, background, text – even the button shapes! And if you know a bit of CSS, you can get fancy and add your own styling. It’s like choosing the perfect outfit for your online shop.
+## Step-by-Step: Creating a New Form
+1. Click on "Add Form +": On the Forms page, you will see the option to add a new form in the upper-right corner. Click on the "Add Form +" button to create a new form. You'll be directed to a page where you can set up the details of your form.
 
-<video src="/assets/posts/page-css-custom-color-star.mp4" muted="" autoplay="" width="100%" loop="" style="margin:15px 0;"></video>
+2. Fill Out the Form Information: On this screen, you'll need to provide a **Name** for your form, and it's option to include a **Description**. The description can give context for what the form will be used for, such as "Sign up for our newsletter" or "Submit your product review."
 
-## Where Do You Want Your Reviews?
-Your reviews are like little stars – let’s put them center stage. You can place them wherever you like on your site with some CSS tricks. It’s a bit like deciding where to hang pictures in your shop. Not sure about CSS? No worries, there's help for that too.
+3. Spam Protection: You'll also notice fields for spam protection. Here you can input a list of blocked words, select an anti-spam protection level, and, if necessary, enter the secret key for the anti-spam service you choose to use. Though optional, enabling spam protection can help keep your submissions clean and relevant.
 
-![EchoBrain dashboard logo and identity](/assets/posts/echo-brain.com_admin_selectors.png)
+4. Save and Get the Form Endpoint: Once all necessary fields are filled out, click the **Save** button. A **Form Endpoint** will be generated upon saving. This endpoint is crucial, as it's where you will direct all form submissions.
 
-## Widget Wonders
-Widgets are like little robots that show off your reviews. You can tell them how many reviews to show or how many customer photos to display. Want to keep showing reviews one after another? Turn on the infinite popup. No reviews yet? You can decide if you want to show an empty space or not.
+## Using the Form Endpoint
+Once you have your Form Endpoint, you're ready to integrate the form into your website. Here's how you can implement it using HTML or Javascript.
 
-![EchoBrain dashboard widget configuration](/assets/posts/echo-brain.com_admin_main_widget_confiuration.png)
+### HTML Form Submission
+If you're using an HTML form, you'll need to set the `action` attribute of your `<form>` element to the generated Form Endpoint. For example:
 
-## The Perfect Thank You Email
-When customers buy from you, EchoBrain sends a nice email asking for their thoughts. You can make that email look just the way you want. Add your personal touch to it, and it'll feel like a thank you note from an old friend.
+```html
+<form action="https://form.echo-brain.com/your-form-endpoint" method="POST">
+  <input type="text" name="firstName" placeholder="First Name" required>
+  <input type="text" name="lastName" placeholder="Last Name" required>
+  <input type="email" name="email" placeholder="Email" required>
+  <button type="submit">Submit</button>
+</form>
+```
+In this case, the fields should always have a `name` attribute, as this is required for sending the data correctly to the Form Endpoint.
 
-![EchoBrain dashboard email](/assets/posts/echo-brain.com_admin_email_template.png)
+### AJAX or Fetch Submission
+For a more dynamic approach, you can use JavaScript with AJAX or the Fetch API to send form data to the Form Endpoint without reloading the page. Here's a simple example using Fetch:
 
-## Choose Your Products
-Got a product you’re especially proud of? Or maybe there's a new one you’re pushing? EchoBrain lets you pick which ones you want to collect reviews for. Leave it open for all your items, or pick and choose – your call!
+```html
+const form = document.querySelector('form');
+form.addEventListener('submit', async (e) => {
+  e.preventDefault();
 
-![EchoBrain dashboard product filter](/assets/posts/echo-brain.com_admin_product_filter.png)
+  const formData = new FormData(form);
 
-## Coupons for Reviews
-Everyone loves a good deal, right? With EchoBrain, you can offer discount codes to your customers who leave reviews. You can have a special code for each customer or one code that everyone can use. It's a sweet way to say thanks!
+  const response = await fetch('https://form.echo-brain.com/your-form-endpoint', {
+    method: 'POST',
+    body: formData
+  });
 
-![EchoBrain dashboard coupon](/assets/posts/echo-brain.com_admin_coupons.png)
+  if (response.ok) {
+    console.log('Form submitted successfully');
+  } else {
+    console.error('Error submitting form');
+  }
+});
+```
 
-# Wrap Up
-There you have it – EchoBrain is not just smart; it’s also stylish and flexible. It's all about making it yours, so your customers feel like they're walking into your digital shop, greeted by your signature style and warmth. Set up your EchoBrain just right, and watch those reviews roll in!
+Again, ensure that each input element in your form has a `name` attribute to ensure the data is submitted correctly.
+
+## Managing Form Submissions
+Once your forms are live, you can track and manage submissions directly within EchoBrain. Click on the form you want to see the submissions for, and you'll see a page where you can edit the form details. If you scroll down, you will also view all the data collected from users under "Submissions". This includes email addresses, phone numbers, or any other details you've asked for in your custom form fields.
+
+You can also delete submissions that are no longer relevant or flagged as spam. This gives you full control over your customer data, keeping your forms and customer interaction organized and efficient.
+
+## Conclusion
+Creating custom forms in EchoBrain is a straightforward yet powerful way to capture meaningful customer data. By following the steps outlined in this guide, you can seamlessly integrate forms into your ecommerce shop, whether you're collecitng newsletter sign-ups or customer feedback. Keep your audience engaged and your brand growing with EchoBrain's flexible form functionality.
+
+Ready to create your form? Log in to EchoBrain today and start crafting a unique experience for your customers!

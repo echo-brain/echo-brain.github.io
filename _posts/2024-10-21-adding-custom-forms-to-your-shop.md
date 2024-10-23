@@ -16,13 +16,13 @@ After logging into your EchoBrain account, you'll find yourself on the main dash
 ![EchoBrain forms dashboard](/assets/posts/echo-brain.com_admin_forms_dashboard.jpg)
 
 ## Step-by-Step: Creating a New Form
-1. Click on "Add Form +": On the Forms page, you will see the option to add a new form in the upper-right corner. Click on the "Add Form +" button to create a new form. You'll be directed to a page where you can set up the details of your form.
+**1. Click on "Add Form +"**: On the Forms page, you will see the option to add a new form in the upper-right corner. Click on the "Add Form +" button to create a new form. You'll be directed to a page where you can set up the details of your form.
 
-2. Fill Out the Form Information: On this screen, you'll need to provide a **Name** for your form, and it's optional to include a **Description**. The description can give context for what the form will be used for, such as "Sign up for our newsletter" or "Submit your product review."
+**2. Fill Out the Form Information**: On this screen, you'll need to provide a **Name** for your form, and it's optional to include a **Description**. The description can give context for what the form will be used for, such as "Sign up for our newsletter" or "Submit your product review."
 
-3. Spam Protection: You'll also notice fields for spam protection. Here you can input a list of blocked words, select an anti-spam protection level, and, if necessary, enter the secret key for the anti-spam service you choose to use. Though optional, enabling spam protection can help keep your submissions clean and relevant.
+**3. Spam Protection**: You'll also notice fields for spam protection. Here you can input a list of blocked words, select an anti-spam protection level, and, if necessary, enter the secret key for the anti-spam service you choose to use. Though optional, enabling spam protection can help keep your submissions clean and relevant.
 
-4. Save and Get the Form Endpoint: Once all necessary fields are filled out, click the **Save** button. A **Form Endpoint** will be generated upon saving. This endpoint is crucial, as it's where you will direct all form submissions.
+**4. Save and Get the Form Endpoint**: Once all necessary fields are filled out, click the **Save** button. A **Form Endpoint** will be generated upon saving. This endpoint is crucial, as it's where you will direct all form submissions.
 
 ![Create a new form with EchoBrain](/assets/posts/echo-brain.com_admin_create_form.jpg)
 

@@ -1,11 +1,11 @@
 ---
 layout: article
 title: "Forms: Adding custom forms to your shop"
-description: "Discover how you can create completely custom forms on your shop with EchoBrain."
+description: "Building a strong connection with your customers starts with understanding their needs and preferences. One way to achieve this is through custom forms, which can collect valuable information for a tailored experience on your ecommerce site. If you’re using the EchoBrain app, this guide will walk you through creating and customizing forms to suit your business needs."
 date: 2024-10-21
 image: /assets/posts/echo-brain.com_admin_custom_forms_setup.jpg
 categories: ['documentation']
-tags: [Documentation, Customization]
+tags: [Documentation, Customization, Forms]
 ---
 
 Building a strong connection with your customers starts with understanding their needs and preferences. One way to achieve this is through custom forms, which can collect valuable information for a tailored experience on your ecommerce site. If you're using the EchoBrain app, this guide will walk you through creating and customizing forms to suit your business needs.
@@ -18,7 +18,7 @@ After logging into your EchoBrain account, you'll find yourself on the main dash
 ## Step-by-Step: Creating a New Form
 1. Click on "Add Form +": On the Forms page, you will see the option to add a new form in the upper-right corner. Click on the "Add Form +" button to create a new form. You'll be directed to a page where you can set up the details of your form.
 
-2. Fill Out the Form Information: On this screen, you'll need to provide a **Name** for your form, and it's option to include a **Description**. The description can give context for what the form will be used for, such as "Sign up for our newsletter" or "Submit your product review."
+2. Fill Out the Form Information: On this screen, you'll need to provide a **Name** for your form, and it's optional to include a **Description**. The description can give context for what the form will be used for, such as "Sign up for our newsletter" or "Submit your product review."
 
 3. Spam Protection: You'll also notice fields for spam protection. Here you can input a list of blocked words, select an anti-spam protection level, and, if necessary, enter the secret key for the anti-spam service you choose to use. Though optional, enabling spam protection can help keep your submissions clean and relevant.
 
@@ -47,7 +47,7 @@ In this case, the fields should always have a `name` attribute, as this is requi
 ### AJAX or Fetch Submission
 For a more dynamic approach, you can use JavaScript with AJAX or the Fetch API to send form data to the Form Endpoint without reloading the page. Here's a simple example using Fetch:
 
-```html
+```javascript
 const form = document.querySelector('form');
 form.addEventListener('submit', async (e) => {
   e.preventDefault();

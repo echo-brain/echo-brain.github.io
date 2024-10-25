@@ -35,7 +35,7 @@ Once you have your Form Endpoint, you're ready to integrate the form into your w
 If you're using an HTML form, you'll need to set the `action` attribute of your `<form>` element to the generated Form Endpoint. For example:
 
 ```html
-<form action="https://form.echo-brain.com/your-form-endpoint" method="POST">
+<form action="https://form.echo-brain.com/your-form-endpoint" method="POST" enctype="multipart/form-data">
   <input type="text" name="firstName" placeholder="First Name" required>
   <input type="text" name="lastName" placeholder="Last Name" required>
   <input type="email" name="email" placeholder="Email" required>

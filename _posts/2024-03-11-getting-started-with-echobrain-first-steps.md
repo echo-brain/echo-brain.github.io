@@ -14,7 +14,7 @@ Welcome aboard, creators! Diving into the world of EchoBrain is the first step t
 ## Step 1: Sign Up and Dive In
 Your adventure with EchoBrain begins at the very start – registration. Head over to [EchoBrain's registration page](https://echo-brain.com/admin/register/) to create your account. This is where the transformation of your e-commerce strategy starts. Once registered, you'll be ushered into your personal EchoBrain dashboard, the command center for your upcoming endeavors.
 
-![EchoBrain register](/assets/posts/echo-brain.com_admin_register_1.jpg)
+![EchoBrain register](/assets/posts/new_admin_register.jpg)
 
 The registration form will ask you for basic information about your store and yourself. About your store, you will need to enter the following information:
 
@@ -27,7 +27,7 @@ The rest of the fields are regarding the person who is going to be the admin of 
 
 
 ## Step 2: Unlock Your EchoBrain Toolkit
-Inside your EchoBrain dashboard lies the key to connecting EchoBrain with your online shop – your unique shop ID, the Webhook URL, and the script to include in your shop. Navigate to your [account admin homepage](https://echo-brain.com/admin/) to find these crucial pieces of information. Look for "Shop ID", "Webhook", or "Script" at the top of the page. First, click on "Webhook", and copy and save the URL that pops up. 
+Inside your EchoBrain dashboard lies the key to connecting EchoBrain with your online shop – the Webhook URL, and the script to include in your shop. Navigate to your [account admin homepage](https://echo-brain.com/admin/) to find these crucial pieces of information. Look for "Webhook" or "Script" on the admin homepage. First, click on the "Webhook" field, and copy and save that URL. 
 
 ![Webhook URL in EchoBrain dashboard](/assets/posts/echo-brain.com_admin_webhook_url.jpg)
 

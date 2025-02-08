@@ -27,15 +27,15 @@ The rest of the fields are regarding the person who is going to be the admin of 
 
 
 ## Step 2: Unlock Your EchoBrain Toolkit
-Inside your EchoBrain dashboard lies the key to connecting EchoBrain with your online shop – the Webhook URL, and the script to include in your shop. Navigate to your [account admin homepage](https://echo-brain.com/admin/) to find these crucial pieces of information. Look for "Webhook" or "Script" on the admin homepage. First, click on the "Webhook" field, and copy and save that URL. 
+Inside your EchoBrain dashboard lies the key to connecting EchoBrain with your online shop – the Webhook URL and the script to include in your shop. Navigate to your [account admin homepage](https://echo-brain.com/admin/) to find these crucial pieces of information. Look for "Webhook" or "Code" on the admin homepage. First, click on the "Webhook" field, and copy and save that URL. 
 
-![Webhook URL in EchoBrain dashboard](/assets/posts/echo-brain.com_admin_webhook_url.jpg)
+![Webhook URL in EchoBrain dashboard](/assets/posts/new_admin_webhook_url.jpg)
 
-Then, click on "Script", and copy and save the HTML that pops up.
+Then, click on "Code", and copy and save the HTML there.
 
-![Shop ID and Script in EchoBrain dashboard](/assets/posts/echo-brain.com_admin_shopid_and_script_1.jpg)
+![Shop ID and Script in EchoBrain dashboard](/assets/posts/new_admin_script_url.jpg)
 
-These are the Webhook URL that you'll need to include in your shop's settings in Step 3 and the HTML you will need to include in your shop's code in Step 4. This process is designed to be straightforward and hassle-free, ensuring you can quickly move on to the exciting part: integration and customization.
+These are the Webhook URL that you'll need to include in your shop's settings in Step 3 and the HTML code you will need to include in your shop's code in Step 4. This process is designed to be straightforward and hassle-free, ensuring you can quickly move on to the exciting part: integration and customization.
 
 <iframe width="100%" height="630" src="https://www.youtube.com/embed/Zky67C2AiII?si=dfyio4xLuIMqlPSP" title="Unlock Your EchoBrain Toolkit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

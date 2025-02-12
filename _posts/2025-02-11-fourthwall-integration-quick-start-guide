@@ -8,22 +8,19 @@ categories: ['documentation']
 tags: [Documentation, Integration, Customization]
 ---
 
-Welcome aboard, creators! Diving into the world of EchoBrain is the first step towards revolutionizing your e-commerce journey. This easy-to-follow guide is designed to walk you through the initial phases of integrating EchoBrain into your online store. With EchoBrain, you're not just adopting a platform; you're embracing a community-driven approach to enhance your brand's authenticity and customer engagement. Let's embark on this journey together, step by step.
+EchoBrain is now available as an app on Fourthwall, making it easier than ever to collect and showcase verified reviews for your products. Follow this guide to integrate EchoBrain with your Fourthwall shop and start gathering customer feedback seamlessly.
 
 
-## Step 1: Sign Up and Dive In
-Your adventure with EchoBrain begins at the very start – registration. Head over to [EchoBrain's registration page](https://echo-brain.com/admin/register/) to create your account. This is where the transformation of your e-commerce strategy starts. Once registered, you'll be ushered into your personal EchoBrain dashboard, the command center for your upcoming endeavors.
+## Step 1: Install EchoBrain from the Fourthwall App Store
+1. Log in to your Fourthwall shop admin dashboard.
+
+2. Navigate to the Apps section.
+
+3. Find EchoBrain in the list and click on it.
+
+4. Click the Connect button to begin the integration process.
 
 ![EchoBrain register](/assets/posts/new_admin_register.jpg)
-
-The registration form will ask you for basic information about your store and yourself. About your store, you will need to enter the following information:
-
-- Store name: This is the name of your store. If you are using Fourthwall as your ecommerce platform, the name of your store could be, for example, "Gatilicious Merch"
-- Store domain: This is the domain of your store. For example, it could be "gatilicious.com" or your Fourthwall's shop internal domain, like "gatilicious-shop.fourthwall.com"
-
-The rest of the fields are regarding the person who is going to be the admin of your account. It could be yourself: your first name, your last name, the username you will want to use, your email address, and the password you want to use to log into your account.
-
-<iframe width="100%" height="630" src="https://www.youtube.com/embed/wy0ECPHxG9o?si=DoYjr77wSJ3kcMS7" title="Sign up and dive into your EchoBrain account" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ## Step 2: Unlock Your EchoBrain Toolkit

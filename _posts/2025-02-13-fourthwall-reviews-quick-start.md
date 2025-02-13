@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "EchoBrain reviews in Fourthwall: Quick Start Guide"
-description: Quick Start guide to set up your EchoBrain reviews in Fourthwall
+title: "EchoBrain reviews in your Fourthwall shop: Quick Start Guide"
+description: Quick Start guide to set up your EchoBrain reviews in your Fourthwall shop
 image: /assets/getting-started-with-echobrain-first-steps.jpg
 date: 2025-02-13
 categories: ['documentation']
@@ -18,7 +18,7 @@ EchoBrain makes it simple to collect and display customer reviews on your Fourth
 3. Click inside the box to select the code snippet, then copy it.
 
 
-## Step 2: Access Your Fourthwall Theme Editor
+## Step 2: Access Your Fourthwall shop Theme Editor
 
 1. Log in to your Fourthwall shop admin.
 2. In the side menu, click on Site design.

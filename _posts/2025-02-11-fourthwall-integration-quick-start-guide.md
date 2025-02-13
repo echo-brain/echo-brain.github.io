@@ -20,6 +20,7 @@ EchoBrain is now available as an app on Fourthwall, making it easier than ever t
 
 4. Click the Connect button to begin the integration process.
 
+
 ![Fourthwall Apps page](/assets/posts/new_fw_apps_page.jpg)
 
 ![Fourthwall EchoBrain connect page](/assets/posts/new_fw_echobrain_connect_page.jpg)
@@ -31,6 +32,7 @@ EchoBrain is now available as an app on Fourthwall, making it easier than ever t
 2. This page will list the necessary permissions EchoBrain requires, including access to orders, webhooks, and shop details.
 
 3. Click Allow to grant EchoBrain the required permissions.
+
 
 ![Fourthwall EchoBrain permissions page](/assets/posts/new_fw_echobrain_permissions_page.jpg)
 
@@ -55,6 +57,9 @@ EchoBrain is now available as an app on Fourthwall, making it easier than ever t
 3. Agree to receive email notifications from EchoBrain (optional but recommended).
 
 4. Click Sign Up to create your account. You will end up on a screen that prompts you to enter a confirmation code.
+
+
+![Fourthwall EchoBrain permissions page](/assets/posts/new_echobrain_register_page.jpg)
 
 
 ## Step 4: Confirm Your Email and Log in

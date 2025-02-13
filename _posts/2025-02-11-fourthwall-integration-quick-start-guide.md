@@ -83,7 +83,9 @@ EchoBrain is now available as an app on Fourthwall, making it easier than ever t
 3. If for any reason, you see that button, please contact us at hello@echo-brain.com.
 
 
-![EchoBrain dashboard](/assets/posts/new_echobrain_dashboard_connect.jpg)
+![EchoBrain dashboard with no connect with Fourthwall button](/assets/posts/new_echobrain_dashboard_no_connect.jpg)
+
+![EchoBrain dashboard with connect with Fourthwall button](/assets/posts/new_echobrain_dashboard_connect.jpg)
 
 
 ## You're All Set!

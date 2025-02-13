@@ -8,7 +8,7 @@ categories: ['documentation']
 tags: [Documentation, Integration, Customization]
 ---
 
-EchoBrain makes it simple to collect and display customer reviews on your Fourthwall shop. Follow these steps to integrate EchoBrain reviews into your store's design.
+EchoBrain makes it simple to collect and display customer reviews on your Fourthwall shop. Follow these steps to display EchoBrain reviews into your store's design once you have completed the [EchoBrain-Fourthwall integration](https://echo-brain.com/blog/documentation/fourthwall-integration-quick-start-guide/)
 
 
 ## Step 1: Copy Your EchoBrain Review Code

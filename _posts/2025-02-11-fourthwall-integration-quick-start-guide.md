@@ -86,3 +86,8 @@ EchoBrain is now available as an app on Fourthwall, making it easier than ever t
 ![EchoBrain dashboard](/assets/posts/new_echobrain_dashboard_connect.jpg)
 
 
+## You're All Set!
+
+Now that EchoBrain is integrated with your Fourthwall store, verified reviews will start rolling in. You can manage and display these reviews on your shop, improving credibility and increasing conversions.
+
+Need help? Visit the [EchoBrain Documentation](https://echo-brain.com/blog/) or [contact support](mailto:hello@echo-brain.com) for assistance.

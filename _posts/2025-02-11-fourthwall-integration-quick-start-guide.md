@@ -59,7 +59,7 @@ EchoBrain is now available as an app on Fourthwall, making it easier than ever t
 4. Click Sign Up to create your account. You will end up on a screen that prompts you to enter a confirmation code.
 
 
-![Fourthwall EchoBrain permissions page](/assets/posts/new_echobrain_register_page.jpg)
+![EchoBrain register page](/assets/posts/new_echobrain_register_page.jpg)
 
 
 ## Step 4: Confirm Your Email and Log in
@@ -71,6 +71,15 @@ EchoBrain is now available as an app on Fourthwall, making it easier than ever t
 3. You will be redirected to a login page. Here, enter the credentials you created when you registered.
 
 
-## Step 5: 
+![EchoBrain login page](/assets/posts/new_echobrain_login_page.jpg)
+
+
+## Step 5: Check your dashboard
+
+1. Inside your EchoBrain dashboard, you may see or may not see a "Connect with Fourthwall" button.
+   
+2. If you don't see it, that's a good thing. That means that everything went smoothly during the integration of EchoBrain with Fourthwall.
+
+3. If for any reason, you see that button, please contact us at hello@echo-brain.com.
 
 

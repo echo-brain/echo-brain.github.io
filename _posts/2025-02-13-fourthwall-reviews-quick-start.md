@@ -96,10 +96,8 @@ If you prefer a more dynamic approach, you can enable the "CSS selectors" featur
 After applying either method, visit your store to verify that the reviews widgets are displaying correctly. If you encounter any issues, the EchoBrain support team is ready to assist you. Congratulations, you're now ready to showcase your customer reviews and build stronger trust with your audience!
 By following these steps, you're ensuring that EchoBrain seamlessly integrates into your store, providing your customers with authentic and engaging reviews exactly where they're most impactful. Enjoy the enhanced engagement and credibility that EchoBrain brings to your e-commerce journey!
 
-## Embrace the EchoBrain Advantage
-Getting started with EchoBrain is more than setting up a platform; it's about laying the foundation for a more engaged, trustworthy, and customer-centric online store. By integrating EchoBrain, you're tapping into the collective power of your customer base, transforming their experiences into your brand's most compelling selling points.
 
-Remember, every review shared through EchoBrain is a testament to your product's quality and your commitment to customer satisfaction. So, take these first steps with confidence, knowing that EchoBrain is here to support your e-commerce journey every step of the way. Welcome to the EchoBrain family, where every customer's voice contributes to your brand's ever-growing story.
+### Next Steps
 
-
-
+- Manage the way reviews are displayed/requested on your shop: Edit number of days post-purchase to send review request emails, choose where on your pages to show your reviews, how reviews are displayed, etc.
+- Check the reviews that have been submitted by your customers, reply to them, and publish the ones you want to showcase in your product pages.

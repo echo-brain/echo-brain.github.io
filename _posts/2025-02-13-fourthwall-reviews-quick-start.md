@@ -83,6 +83,12 @@ If you prefer a more dynamic approach, you can enable the "CSS selectors" featur
 
  **1. Enable CSS Selectors:** Log in to your EchoBrain dashboard and click on the "Settings" link on the sidebar menu. Then, click on the "Frontend" tab and scroll down to the "Selectors" section and make sure the "Enable CSS Selectors" checkbox is checked to enable the "CSS selectors feature".
 
+
+![Echobrain dashboard reviews frontend settings](/assets/posts/new_echobrain_dashboard_reviews_frontend_settings.jpg)
+
+
+
+
  **2. Define Selectors:** Specify the CSS selectors corresponding to the elements you want the reviews to follow. For example, if you want the widget to appear after the main product section, you might use a selector like `.product-section`, or, to be more precise, something like `.fw-section > .product-reviews > .container.wrapper > div`
 
  **3. Save Your Configuration:** Save your changes. EchoBrain will now insert each review widget immediately after the elements matched by your CSS selectors.

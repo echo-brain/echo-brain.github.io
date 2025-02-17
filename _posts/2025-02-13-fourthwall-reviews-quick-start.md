@@ -11,11 +11,14 @@ tags: [Documentation, Integration, Customization]
 EchoBrain makes it simple to collect and display customer reviews on your Fourthwall shop. Follow these steps to display EchoBrain reviews into your store's design once you have completed the [EchoBrain-Fourthwall integration](https://echo-brain.com/blog/documentation/fourthwall-integration-quick-start-guide/)
 
 
-## Step 1: Copy Your EchoBrain Review Code
+## Step 1: Copy Your EchoBrain integration code snippet
 
 1. Log in to your EchoBrain dashboard.
 2. On the home page, locate the section labeled Code.
 3. Click inside the box to select the code snippet, then copy it.
+
+
+![Echobrain dashboard code](/assets/posts/new_echobrain_dashboard_code.jpg)
 
 
 ## Step 2: Access Your Fourthwall shop Theme Editor

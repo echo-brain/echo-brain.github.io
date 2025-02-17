@@ -86,7 +86,7 @@ EchoBrain is now available as an app on Fourthwall, making it easier than ever t
 
 Now that EchoBrain is integrated with your Fourthwall store, verified reviews will start rolling in once you receive orders on your store. You can manage and display these reviews on your shop, improving credibility and increasing conversions. You can also start adding custom forms to your shop, and more. Here are some useful links for you to do so:
 
-* Display reviews on your shop product pages and customize settings of how to do so: [EchoBrain Reviews in your Fourthwall shop](https://echo-brain.com/blog/documentation/fourthwall-reviews-quick-start/)
+* Display reviews on your shop product pages and customize the way they are displayed: [EchoBrain Reviews in your Fourthwall shop](https://echo-brain.com/blog/documentation/fourthwall-reviews-quick-start/)
 * Display custom forms on your shop and start collecting data from your visitors and fans: [EchoBrain custom forms](https://echo-brain.com/blog/documentation/adding-custom-forms-to-your-shop/)
 
 Need help? Visit the [EchoBrain Documentation](https://echo-brain.com/blog/) or [contact support](mailto:hello@echo-brain.com) for assistance.

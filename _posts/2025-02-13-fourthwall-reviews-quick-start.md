@@ -86,7 +86,7 @@ If you prefer a more dynamic approach, you can enable the "CSS selectors" featur
 
 ![Echobrain dashboard reviews frontend settings](/assets/posts/new_echobrain_dashboard_reviews_frontend_settings.jpg)
 
-
+![Echobrain dashboard css selectors settings](/assets/posts/new_echobrain_dashboard_css_selectors_settings.jpg)
 
 
  **2. Define Selectors:** Specify the CSS selectors corresponding to the elements you want the reviews to follow. For example, if you want the widget to appear after the main product section, you might use a selector like `.product-section`, or, to be more precise, something like `.fw-section > .product-reviews > .container.wrapper > div`

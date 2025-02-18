@@ -34,6 +34,8 @@ Log in to your EchoBrain dashboard and click on the "Settings" link on the sideb
 
 ![Echobrain dashboard reviews frontend settings](/assets/posts/new_echobrain_dashboard_reviews_frontend_settings.jpg)
 
+![Echobrain dashboard reviews colors and appearance](/assets/posts/echobrain_dashboard_reviews_colors_appearance.jpg)
+
 
 ## Set details of how your main widget is displayed
 

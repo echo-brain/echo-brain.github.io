@@ -77,7 +77,7 @@ To begin with, you can manually add empty HTML placeholders within your theme co
 
  **2. Save Changes:** Save the changes to your theme code. EchoBrain's script will automatically detect these placeholders and populate them with the review widgets.
 
-### Method 2: Using CSS Selectors (No Code)
+### Method 2: Using CSS Selectors (No Code, Recommended)
 
 If you prefer a more dynamic approach, you can enable the "CSS selectors" feature in the EchoBrain dashboard. This allows you to specify the exact elements on your site after which the reviews widgets will be inserted. Follow these steps:
 

@@ -119,7 +119,7 @@ In EchoBrain, so far, we offer 2 review widgets to display on your product page:
 
 ##### *Main Reviews widget:*
 
-This is the main widget that is intended to show up in each of your product pages, showcasing the reviews of each your products. It will show a summary of your product star rating, and it will also show details of each review that was published by your team. Click here to learn more about managing your shop's reviews.
+This is the main widget that is intended to show up in each of your product pages, showcasing the reviews of each your products. It will show a summary of your product star rating, and it will also show details of each review that was published by your team. [Click here](https://echo-brain.com/blog/documentation/managing-your-reviews/) to learn more about managing your shop's reviews.
 
 ![Beautiful Bastard products plush throw blanket EchoBrain](/assets/posts/beautifulbastard_products_plush-throw-blanket-echobrain.jpg)
 

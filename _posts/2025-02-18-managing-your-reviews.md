@@ -48,6 +48,7 @@ Log in to your EchoBrain dashboard and click on the "Settings" link on the sideb
 * Summary type: You can change how to show the ratings summary: just the average, just the quantity (number of reviews), or the average and the quantity.
 
 
+![Echobrain reviews main widget configuration](/assets/posts/echobrain_reviews_main_widget_configuration.jpg)
 
 
 ## Set review request email settings

@@ -29,7 +29,10 @@ No reviews will be displayed on your site unless you explicitly make them visibl
 
 ## Set colors and appearance of how your reviews are displayed
 
+Log in to your EchoBrain dashboard and click on the "Settings" link on the sidebar menu. Then, click on the "Frontend" tab and scroll down to the "Colors & appearance" section. To ease things up for you, the values for the "Primary", "Background", "Text", and "Text over Primary" colors are already pre-set according to the values you set in your Fourthwall shop theme. You can always change them if you want to use different colors for your main reviews widget. The button, input, and and image corner radius settings behave in a similar way. These are already pre-set to the settings you have in your Fourthwall shop theme so that everything aligns aesthetically when the reviews show up in your shop's product pages. There is also a "Custom syle" field where you can add custom CSS code to different HTML elements on the widget.
 
+
+![Echobrain dashboard reviews frontend settings](/assets/posts/new_echobrain_dashboard_reviews_frontend_settings.jpg)
 
 
 ## Set details of how your main widget is displayed

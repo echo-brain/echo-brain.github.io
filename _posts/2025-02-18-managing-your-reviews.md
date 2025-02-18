@@ -39,7 +39,7 @@ No reviews will be displayed on your site unless you explicitly make them visibl
 
 
 <style>
-ul {
+.rich-text ul {
     list-style-type: disc !important;
     margin-left: 20px !important;
 }

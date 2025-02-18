@@ -91,3 +91,10 @@ Now that EchoBrain is integrated with your Fourthwall store, verified reviews wi
 * Display custom forms on your shop and start collecting data from your visitors and fans: [EchoBrain custom forms](https://echo-brain.com/blog/documentation/adding-custom-forms-to-your-shop/)
 
 Need help? Visit the [EchoBrain Documentation](https://echo-brain.com/blog/) or [contact support](mailto:hello@echo-brain.com) for assistance.
+
+<style>
+ul, ol {
+    list-style-type: disc !important;
+    margin-left: 20px !important;
+}
+</style>

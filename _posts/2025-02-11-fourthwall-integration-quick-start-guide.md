@@ -41,6 +41,7 @@ EchoBrain is now available as an app on Fourthwall, making it easier than ever t
 1. Once authorized, you will be redirected to EchoBrain’s registration page.
 
 2. Enter the following details:
+   
    * Store Name
    * Store Domain (e.g., my-shop.fourthwall.com)
    * First Name and Last Name
@@ -48,9 +49,9 @@ EchoBrain is now available as an app on Fourthwall, making it easier than ever t
    * Email
    * Password and Password Confirmation
 
-3. Agree to receive email notifications from EchoBrain (optional but recommended).
+4. Agree to receive email notifications from EchoBrain (optional but recommended).
 
-4. Click Sign Up to create your account. You will end up on a screen that prompts you to enter a confirmation code.
+5. Click Sign Up to create your account. You will end up on a screen that prompts you to enter a confirmation code.
 
 
 ![EchoBrain register page](/assets/posts/new_echobrain_register_page.jpg)

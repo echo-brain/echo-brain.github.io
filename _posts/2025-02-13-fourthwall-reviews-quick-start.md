@@ -141,7 +141,7 @@ By following these steps, you're ensuring that EchoBrain seamlessly integrates i
 
 
 <style>
-ul {
+.rich-text ul {
     list-style-type: disc !important;
     margin-left: 20px !important;
 }

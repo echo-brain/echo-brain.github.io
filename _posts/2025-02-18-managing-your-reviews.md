@@ -39,6 +39,15 @@ Log in to your EchoBrain dashboard and click on the "Settings" link on the sideb
 
 ## Set details of how your main widget is displayed
 
+Log in to your EchoBrain dashboard and click on the "Settings" link on the sidebar menu. Then, click on the "Frontend" tab and scroll down to the "Main widget configuration" section. Here, you will be able to set values for the following:
+
+* Max number of reviews: This is the maximum number of reviews that will be shown per page on the main reviews widget on the product page.
+* Max number of images in gallery: This is the maximum number of images to be shown in the image gallery section of the main reviews widget.
+* Infinite popup: If marked as "Yes", the main reviews widget will be shown as an infinite popup.
+* Show section when no reviews: If marked as "Yes", the main reviews widget will be visible in all product pages regarless of whether the product has reviews or not. If marked as "No", if a product does not have reviews, it will not show the main reviews widget.
+* Summary type: You can change how to show the ratings summary: just the average, just the quantity (number of reviews), or the average and the quantity.
+
+
 
 
 ## Set review request email settings

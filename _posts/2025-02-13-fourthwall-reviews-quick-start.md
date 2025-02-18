@@ -53,7 +53,7 @@ To begin with, you can manually add empty HTML placeholders within your theme co
 
  **1. Identify the areas:** Identify the areas where you want the reviews widgets to appear, such as below the main product section. Add an empty HTML placeholder like the ones shown below. If you don't have access to make this code change yourself, contact support to have Fourthwall's developer team do it for you and add the placeholders in the areas that you have identified. The HTML placeholders for the currently available widgets look like the following:
 
-###### *Main Reviews widget:*
+##### *Main Reviews widget:*
  ```liquid
  <div data-reviews="container">
     <script type="application/json" data-reviews="json">
@@ -70,7 +70,7 @@ To begin with, you can manually add empty HTML placeholders within your theme co
  One of the most important things when you add the above code is for you to include the `data-reviews="container"` attribute.
 
 
-###### *Ratings summary widget (to show rating average and stars):*
+##### *Ratings summary widget (to show rating average and stars):*
 ```liquid
 <div data-reviews-summary="{ product.id }"></div>
 ```
@@ -117,13 +117,13 @@ If you prefer a more dynamic approach, you can enable the "CSS selectors" featur
 
 In EchoBrain, so far, we offer 2 review widgets to display on your product page: the main reviews widget, and the ratings summary widget.
 
-###### *Main Reviews widget:*
+##### *Main Reviews widget:*
 
 This is the main widget that is intended to show up in each of your product pages, showcasing the reviews of each your products. It will show a summary of your product star rating, and it will also show details of each review that was published by your team. Click here to learn more about managing your shop's reviews.
 
 ![Beautiful Bastard products plush throw blanket EchoBrain](/assets/posts/beautifulbastard_products_plush-throw-blanket-echobrain.jpg)
 
-###### *Ratings Summary widget:*
+##### *Ratings Summary widget:*
 
 This is the widget that shows a summary of the star rating of your product. It is calculated by averaging all the published reviews of your product. Many creators and sellers choose to show this widget below the product title on the product page or somewhere on each tile on a collection page:
 

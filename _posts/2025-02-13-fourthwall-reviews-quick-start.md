@@ -123,7 +123,7 @@ In EchoBrain, so far, we offer 2 review widgets to display on your product page:
 
 *Ratings Summary widget:* This is the widget that shows a summary of the star rating of your product. It is calculated by averaging all the published reviews of your product. Many creators and sellers choose to show this widget below the product title on the product page or somewhere on each tile on a collection page:
 
-
+![EchoBrain reviews rating summary widget](/assets/posts/echobrain_reviews_summary_widget.jpg)
 
 ### Final Steps
 

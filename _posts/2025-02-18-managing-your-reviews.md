@@ -11,17 +11,23 @@ tags: [Documentation, Integration, Customization]
 EchoBrain makes it easy for you to collect and display verified reviews for your product on your site. Here are some aspects of this experience that you can control within your EchoBrain dashboard
 
 
-## Step 1: Copy Your EchoBrain integration code snippet
+## Make your reviews visible by publishing them
 
 
 
 
-## Step 2: Access Your Fourthwall shop Theme Editor
+## Set colors and appearance of how your reviews are displayed
 
 
 
 
-## Step 3: Enable and Insert the Review Code
+## Set details of how your main widget is displayed
+
+
+
+## Set review request email settings
+
+
 
 
 

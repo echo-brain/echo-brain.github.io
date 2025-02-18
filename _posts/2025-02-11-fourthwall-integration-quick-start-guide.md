@@ -93,7 +93,7 @@ Now that EchoBrain is integrated with your Fourthwall store, verified reviews wi
 Need help? Visit the [EchoBrain Documentation](https://echo-brain.com/blog/) or [contact support](mailto:hello@echo-brain.com) for assistance.
 
 <style>
-ul {
+.rich-text ul {
     list-style-type: disc !important;
     margin-left: 20px !important;
 }

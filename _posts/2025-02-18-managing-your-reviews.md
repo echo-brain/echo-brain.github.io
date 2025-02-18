@@ -22,6 +22,10 @@ Go into your EchoBrain dashboard and click on "Reviews" on the left-side bar to 
 No reviews will be displayed on your site unless you explicitly make them visible by publishing them. You can do so by going into each review in the list of submitted reviews, and toggle the "Publish review" switch. You can also manually mark a review as verified by toggling the "Mark review as verified" switch.
 
 
+![Echobrain reviews list](/assets/posts/echobrain_reviews_list.jpg)
+
+![Echobrain reviews publish and verify](/assets/posts/echobrain_reviews_publish_verify.jpg)
+
 
 ## Set colors and appearance of how your reviews are displayed
 

@@ -138,3 +138,11 @@ By following these steps, you're ensuring that EchoBrain seamlessly integrates i
 ### Next Steps
 - Manage the way reviews are displayed/requested on your shop: Edit number of days post-purchase to send review request emails, choose where on your pages to show your reviews, how reviews are displayed, etc.
 - Check the reviews that have been submitted by your customers, reply to them, and publish the ones you want to showcase in your product pages.
+
+
+<style>
+ul {
+    list-style-type: disc !important;
+    margin-left: 20px !important;
+}
+</style>

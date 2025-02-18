@@ -26,7 +26,7 @@ EchoBrain makes it easy for you to collect and display verified reviews for your
 
 
 <style>
-ul, ol {
+ul {
     list-style-type: disc !important;
     margin-left: 20px !important;
 }

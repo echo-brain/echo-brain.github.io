@@ -73,7 +73,7 @@ Once your forms are live, you can track and manage submissions directly within E
 
 You can also delete submissions that are no longer relevant or flagged as spam. This gives you full control over your customer data, keeping your forms and customer interaction organized and efficient.
 
-![Manage form submissions on EchoBrain](/assets/posts/echobrain_dashboard_form_submissions.jpg)
+![Manage form submissions on EchoBrain](/assets/posts/echobrain_dashboard_form_submissions_1.jpg)
 
 ## Conclusion
 Creating custom forms in EchoBrain is a straightforward yet powerful way to capture meaningful customer data. By following the steps outlined in this guide, you can seamlessly integrate forms into your ecommerce shop, whether you're collecitng newsletter sign-ups or customer feedback. Keep your audience engaged and your brand growing with EchoBrain's flexible form functionality.

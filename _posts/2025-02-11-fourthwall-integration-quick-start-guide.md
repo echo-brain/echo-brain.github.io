@@ -2,7 +2,7 @@
 layout: article
 title: "Fourthwall Integration Quick Start Guide"
 description: Quick Start Guide for the Integration of the EchoBrain app in the Fourthwall platform.
-image: /assets/getting-started-with-echobrain-first-steps.jpg
+image: /assets/posts/echobrain-reviews-in-your-fourthwall-shop-quick-start-guide.jpg
 date: 2025-02-11
 categories: ['documentation']
 tags: [Documentation, Integration, Customization]

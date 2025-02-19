@@ -53,6 +53,14 @@ Log in to your EchoBrain dashboard and click on the "Settings" link on the sideb
 
 ## Set review request email settings
 
+Log in to your EchoBrain dashboard and click on the "Settings" link on the sidebar menu. Then, click on the "Email" tab. Here, you will be able to set values for the following:
+
+**Email timing:** This is the post-purchase time after which EchoBrain will send a review request email to the address associated to each order. You can have EchoBrain send these emails days, hours, or minutes after purchases happen.
+
+**Email message content:** This is the actual content of the email requesting reviews that is sent to your supporters/customers when they buy a product you sell on your shop. You can edit things like the subject line, preview text, and the actual content of the email using some templating language.
+
+
+
 
 
 

@@ -13,7 +13,7 @@ Building a strong connection with your customers starts with understanding their
 ## Navigating to the Forms Dashboard
 After logging into your EchoBrain account, you'll find yourself on the main dashboard, where you can manage various aspects of your store. To start working with forms, look to the left-side bar and click on **Forms** under the "Forms" section. This will take you to the Forms page, where you can see any existing forms and manage submissions.
 
-![EchoBrain forms dashboard](/assets/posts/echobrain_dashboard_forms.jpg)
+![EchoBrain forms dashboard](/assets/posts/echobrain_dashboard_forms_1.jpg)
 
 ## Step-by-Step: Creating a New Form
 **1. Click on "Add Form +"**: On the Forms page, you will see the option to add a new form in the upper-right corner. Click on the "Add Form +" button to create a new form. You'll be directed to a page where you can set up the details of your form.

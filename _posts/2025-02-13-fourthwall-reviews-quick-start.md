@@ -2,7 +2,7 @@
 layout: article
 title: "EchoBrain reviews in your Fourthwall shop: Quick Start Guide"
 description: Quick Start guide to set up your EchoBrain reviews in your Fourthwall shop
-image: /assets/getting-started-with-echobrain-first-steps.jpg
+image: /assets/posts/echobrain-reviews-in-your-fourthwall-shop-quick-start-guide.jpg
 date: 2025-02-13
 categories: ['documentation']
 tags: [Documentation, Integration, Customization]

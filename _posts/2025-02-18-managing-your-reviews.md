@@ -2,7 +2,7 @@
 layout: article
 title: "Managing your product reviews on EchoBrain"
 description: Manage your product reviews on EchoBrain - Publish reviews, edit how they are displayed, etc
-image: /assets/getting-started-with-echobrain-first-steps.jpg
+image: /assets/posts/managing-your-product-reviews-on-echobrain.jpg
 date: 2025-02-18
 categories: ['documentation']
 tags: [Documentation, Integration, Customization]

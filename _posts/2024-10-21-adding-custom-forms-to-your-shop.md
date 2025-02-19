@@ -69,11 +69,11 @@ form.addEventListener('submit', async (e) => {
 Again, ensure that each input element in your form has a `name` attribute to ensure the data is submitted correctly.
 
 ## Managing Form Submissions
-Once your forms are live, you can track and manage submissions directly within EchoBrain. Click on the form you want to see the submissions for, and you'll see a page where you can edit the form details. If you scroll down, you will also view all the data collected from users under "Submissions". This includes email addresses, phone numbers, or any other details you've asked for in your custom form fields.
+Once your forms are live, you can track and manage submissions directly within EchoBrain. Click on "Submissions" on the left-side bar, and you will get a list of all the submissions for all your active forms. You can filter the submissions to see only the ones for a specific form by using the dropdown filter on the top right corner of the list.
 
 You can also delete submissions that are no longer relevant or flagged as spam. This gives you full control over your customer data, keeping your forms and customer interaction organized and efficient.
 
-![Manage form submissions on EchoBrain](/assets/posts/echo-brain.com_admin_form_submissions.jpg)
+![Manage form submissions on EchoBrain](/assets/posts/echobrain_dashboard_form_submissions.jpg)
 
 ## Conclusion
 Creating custom forms in EchoBrain is a straightforward yet powerful way to capture meaningful customer data. By following the steps outlined in this guide, you can seamlessly integrate forms into your ecommerce shop, whether you're collecitng newsletter sign-ups or customer feedback. Keep your audience engaged and your brand growing with EchoBrain's flexible form functionality.

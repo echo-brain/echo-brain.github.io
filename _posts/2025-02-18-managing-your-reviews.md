@@ -60,7 +60,7 @@ Log in to your EchoBrain dashboard and click on the "Settings" link on the sideb
 **Email message content:** This is the actual content of the email requesting reviews that is sent to your supporters/customers when they buy a product you sell on your shop. You can edit things like the subject line, preview text, and the actual content of the email using some templating language.
 
 
-
+![Echobrain review request email settings](/assets/posts/echobrain_review_request_email_settings.jpg)
 
 
 

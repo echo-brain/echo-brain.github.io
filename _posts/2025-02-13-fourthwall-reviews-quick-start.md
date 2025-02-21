@@ -29,7 +29,7 @@ EchoBrain makes it simple to collect and display customer reviews on your Fourth
 4. Scroll down and select Edit code (advanced).
 
 
-![Fourthwall shop admin](/assets/posts/echo-brain.com_admin_fw_dashboard_sidebar.jpg)
+![Echobrain access Fourthwall theme editor](/assets/posts/echobrain_access_fourthwall_theme_editor.jpg)
 
 
 ## Step 3: Enable and Insert the Review Code
@@ -38,9 +38,7 @@ EchoBrain makes it simple to collect and display customer reviews on your Fourth
 2. In the text box labeled Custom header HTML, paste the EchoBrain review code snippet you copied earlier.
 
 
-![Check the Enable header code checkbox](/assets/posts/echo-brain.com_admin_enable_header_code_html.jpg)
-
-![After inserting HTML code into textarea](/assets/posts/production-reviews-shop_admin_dashboard.jpg)
+![Echobrain Enable and Insert review snippet](/assets/posts/echobrain_enable_and_insert_review_snippet.jpg)
 
 
 ## Step 4: Showcase Your Reviews Widget

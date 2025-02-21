@@ -136,8 +136,9 @@ By following these steps, you're ensuring that EchoBrain seamlessly integrates i
 
 
 ### Next Steps
-- Manage the way reviews are displayed/requested on your shop: Edit number of days post-purchase to send review request emails, choose where on your pages to show your reviews, how reviews are displayed, etc.
-- Check the reviews that have been submitted by your customers, reply to them, and publish the ones you want to showcase in your product pages.
+- [Click here](https://echo-brain.com/blog/documentation/managing-your-reviews/) to learn how to manage the way reviews are displayed/requested on your shop: Edit number of days post-purchase to send review request emails, choose where on your pages to show your reviews, how reviews are displayed, etc.
+- [Click here](https://echo-brain.com/blog/documentation/managing-your-reviews/#make-your-reviews-visible-by-publishing-them) to learn how to check the reviews that have been submitted by your customers, reply to them, and publish the ones you want to showcase in your product pages.
+- [Click here](https://echo-brain.com/blog/documentation/exporting-and-importing-reviews-with-echobrain/) to learn how to export/import reviews in EchoBrain.
 
 
 <style>

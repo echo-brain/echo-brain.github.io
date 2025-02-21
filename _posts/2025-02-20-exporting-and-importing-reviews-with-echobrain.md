@@ -44,6 +44,7 @@ If you have reviews from another platform or a backup file, you can import them 
   * Click Choose File to select the file containing your reviews.
   * Select the format of the file you are uploading (available formats: JSON, XLSX, CSV, YAML).
   * Ensure that the file contains all the required fields:
+
       * id
       * domain
       * identifier (Fourthwall product ID)

@@ -25,12 +25,11 @@ EchoBrain makes it simple to collect and display customer reviews on your Fourth
 
 1. Log in to your Fourthwall shop admin.
 2. In the side menu, click on Site design.
-3. Scroll down and select Edit code (advanced).
+3. Select the "Style" option on the upper left part of the Theme Editor.
+4. Scroll down and select Edit code (advanced).
 
 
 ![Fourthwall shop admin](/assets/posts/echo-brain.com_admin_fw_dashboard_sidebar.jpg)
-
-![Fourthwall theme editor to click on Edit code](/assets/posts/echo-brain.com_admin_fw_dashboard_edit_code.jpg)
 
 
 ## Step 3: Enable and Insert the Review Code

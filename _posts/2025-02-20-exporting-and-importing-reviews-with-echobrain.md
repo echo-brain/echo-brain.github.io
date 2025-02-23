@@ -30,6 +30,9 @@ Exporting reviews lets you download and store your reviews in different formats.
 5. Click Submit, and your reviews will be exported in the selected format.
 
 
+![Echobrain export reviews](/assets/posts/echobrain_export_reviews.jpg)
+
+
 ## Importing Reviews into EchoBrain
 If you have reviews from another platform or a backup file, you can import them into EchoBrain by following these steps:
 
@@ -63,6 +66,9 @@ If you have reviews from another platform or a backup file, you can import them 
       * updated_at
 
 5. Click Submit, and EchoBrain will process the file, importing all reviews for the corresponding products.
+
+
+![Echobrain import reviews](/assets/posts/echobrain_import_reviews.jpg)
 
 
 ## Final Thoughts

@@ -2,7 +2,7 @@
 layout: article
 title: "Exporting and Importing reviews with EchoBrain"
 description: Export and import reviews easily with EchoBrain
-image: /assets/posts/managing-your-product-reviews-on-echobrain.jpg
+image: /assets/posts/echobrain_import_reviews.jpg
 date: 2025-02-20
 categories: ['documentation']
 tags: [Documentation, Integration, Customization]

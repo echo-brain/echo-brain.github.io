@@ -55,10 +55,10 @@ To begin with, you can manually add empty HTML placeholders within your theme co
  <div data-reviews="container">
     <script type="application/json" data-reviews="json">
         {
-          "product_id": "{ product.id }",
-          "product_title": "{ product.title }",
-          "product_image": "{ product.images[0].src | img_url: '720x' }",
-          "product_url": "{ product.url }"
+          "product_id": "{{ product.id }}",
+          "product_title": "{{ product.title }}",
+          "product_image": "{{ product.images[0].src | img_url: '720x' }}",
+          "product_url": "{{ product.url }}"
         }
     </script>
 </div>
@@ -69,7 +69,7 @@ To begin with, you can manually add empty HTML placeholders within your theme co
 
 ##### *Ratings summary widget (to show rating average and stars):*
 ```liquid
-<div data-reviews-summary="{ product.id }"></div>
+<div data-reviews-summary="{{ product.id }}"></div>
 ```
 
  **2. Save Changes:** Save the changes to your theme code. EchoBrain's script will automatically detect these placeholders and populate them with the review widgets.

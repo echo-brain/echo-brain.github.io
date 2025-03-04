@@ -72,11 +72,11 @@ After following these steps, you should end up with a full-fledged custom form t
 
 Here are some examples of how some creators and merchants are using EchoBrain's custom forms within their Fourthwall shops:
 
-- [Just Roll With It: Fan art submit page](https://jrwishow.com/pages/fanart-submit):
+- <a href="https://jrwishow.com/pages/fanart-submit" target="_blank">Just Roll With It: Fan art submit page</a>:
 
 ![Just Roll With It FanArt Submission form](/assets/posts/JRWI_Fanart_submit_form.jpg)
 
-- [TMG's Brooke and Connor Make a Podcast Submission](https://tmgstudios.tv/pages/form-brooke-and-connor):
+- <a href="https://tmgstudios.tv/pages/form-brooke-and-connor" target="_blank">TMG: Brooke and Connor Make a Podcast Submission Form</a>:
 
 ![EchoBrain forms dashboard](/assets/posts/TMG_Brooke_and_Connor_form.jpg)
 

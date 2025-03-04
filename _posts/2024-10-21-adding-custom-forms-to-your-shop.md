@@ -68,6 +68,18 @@ form.addEventListener('submit', async (e) => {
 
 Again, ensure that each input element in your form has a `name` attribute to ensure the data is submitted correctly.
 
+After following these steps, you should end up with a full-fledged custom form that you can use to collect all types of data from your visitors. You can even have your visitors submit images to you. All you need to do is include the correct html tags in your form.
+
+Here are some examples of how some creators and merchants are using EchoBrain's custom forms within their Fourthwall shops:
+
+- [Just Roll With It: Fan art submit page](https://jrwishow.com/pages/fanart-submit):
+
+![EchoBrain forms dashboard](/assets/posts/echobrain_dashboard_forms_1.jpg)
+
+- [TMG's Brooke and Connor Make a Podcast Submission](https://tmgstudios.tv/pages/form-brooke-and-connor):
+
+![EchoBrain forms dashboard](/assets/posts/echobrain_dashboard_forms_1.jpg)
+
 ## Managing Form Submissions
 Once your forms are live, you can track and manage submissions directly within EchoBrain. Click on "Submissions" on the left-side bar, and you will get a list of all the submissions for all your active forms. You can filter the submissions to see only the ones for a specific form by using the dropdown filter on the top right corner of the list.
 

@@ -74,11 +74,11 @@ Here are some examples of how some creators and merchants are using EchoBrain's 
 
 - [Just Roll With It: Fan art submit page](https://jrwishow.com/pages/fanart-submit):
 
-![EchoBrain forms dashboard](/assets/posts/echobrain_dashboard_forms_1.jpg)
+![Just Roll With It FanArt Submission form](/assets/posts/JRWI_Fanart_submit_form.jpg)
 
 - [TMG's Brooke and Connor Make a Podcast Submission](https://tmgstudios.tv/pages/form-brooke-and-connor):
 
-![EchoBrain forms dashboard](/assets/posts/echobrain_dashboard_forms_1.jpg)
+![EchoBrain forms dashboard](/assets/posts/TMG_Brooke_and_Connor_form.jpg)
 
 ## Managing Form Submissions
 Once your forms are live, you can track and manage submissions directly within EchoBrain. Click on "Submissions" on the left-side bar, and you will get a list of all the submissions for all your active forms. You can filter the submissions to see only the ones for a specific form by using the dropdown filter on the top right corner of the list.

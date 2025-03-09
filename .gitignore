@@ -1,0 +1,16 @@
+# Jekyll output directories
+_site/
+.jekyll-cache/
+
+# Bundler dependencies
+Gemfile.lock
+vendor/
+
+# Temporary files
+.sass-cache/
+.DS_Store
+Thumbs.db
+*.log
+
+# VS Code workspace settings (optional)
+.vscode/
